@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { Network } from 'vis-network';
 import * as d3 from 'd3';
 
@@ -55,7 +55,7 @@ const GraphPage = () => {
 
       svg.call(zoom); // Apply zoom to the container
     }
-  }, []);
+  }, [edges, initialNodes]);
 
   // Filter function
   const filterGraph = (group: string) => {
