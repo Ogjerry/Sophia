@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { Network } from 'vis-network';
 import * as d3 from 'd3';
 
@@ -7,21 +7,21 @@ const GraphPage = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null); // Declare networkRef here to store the network instance
 
-  const initialNodes = [
+  const initialNodes = useMemo(() => [
     { id: 1, label: 'Plato', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Greek' },
     { id: 2, label: 'Aristotle', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Greek' },
     { id: 3, label: 'Juno', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Roman' },
     { id: 4, label: 'Node 1', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Roman' },
     { id: 5, label: 'Node 2', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Other' },
-  ];
+  ], []);// Empty array to only initialize once
 
-  const edges = [
+  const edges = useMemo(() =>[
     { from: 1, to: 2 },
     { from: 1, to: 5 },
     { from: 2, to: 3 },
     { from: 2, to: 4 },
     { from: 3, to: 4 },
-  ];
+  ], []);// Empty array to only initialize once
 
   // Initialize network and D3 zoom
   useEffect(() => {
