@@ -1,11 +1,13 @@
 'use client';
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Network } from 'vis-network';
 import * as d3 from 'd3';
 
 const GraphPage = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const networkRef = useRef<Network | null>(null); // Declare networkRef here to store the network instance
+  const [showFilters, setShowFilters] = useState(false); // filter at the right top corner
+  const [showFilterButton, setShowFilterButton] = useState(false); // State for showing/hiding the filter toggle button
 
   const initialNodes = useMemo(() => [
     { id: 1, label: 'Plato', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Greek' },
@@ -54,6 +56,16 @@ const GraphPage = () => {
         });
 
       svg.call(zoom); // Apply zoom to the container
+
+      // set filters default mode
+      networkInstance.on('click', (params) => {
+        if (params.nodes.length > 0) {
+          setShowFilterButton(true);
+        } else {                      // if clicking on white space
+          setShowFilters(false);      // filter disappear
+          setShowFilterButton(false); // options disappear
+        }
+      })
     }
   }, [edges, initialNodes]);
 
@@ -74,57 +86,72 @@ const GraphPage = () => {
     <div style={{ position: 'relative' }}>
       {/* The container for the graph */}
       <div ref={containerRef} style={{ height: '600px', width: '100%', backgroundColor: 'white' }} />
-  
-      {/* The container for the buttons */}
-      <div 
-        style={{ 
-          display: 'flex', 
-          justifyContent: 'center', 
-          position: 'absolute', 
-          top: '6px', 
-          left: '6px', 
-          right: '6px', // Ensures full width
-          zIndex: 10, 
-          backgroundColor: 'rgba(255, 255, 255, 0.8)', 
-          padding: '10px', 
-          textAlign: 'center', 
-          gap: '10px',
-          width: 'calc(100% - 20px)' // Ensures buttons take full width minus padding
-        }}
-      >
-        <button 
-          onClick={() => filterGraph('Greek')}
-          style={{ backgroundColor: 'black', flexGrow: 1, color: 'white', padding: '2px'}}
+
+      {/* Toggle button to show filters */}
+      {/* Control Flow: Click Nodes  ->  Filter Appear  ->  Click Filter  ->  Filter Options Appear */}
+      {showFilterButton && (
+        <div
+          style={{
+            position: 'absolute',
+            top     : '10px',
+            right   : '10px',
+            zIndex  : 10
+          }}
         >
-          Greek
-        </button>
-  
-        <button 
-          onClick={() => filterGraph('Roman')}
-          style={{ backgroundColor: 'black', flexGrow: 1, color: 'white', padding: '2px' }}
+        <button
+          onClick={() => setShowFilters(!showFilters)}
+          style={{ backgroundColor: 'black', color: 'white', padding: '10px', cursor: 'pointer' } }
         >
-          Roman
+          {showFilters ? 'Hide Filters' : 'Show Filters'}
         </button>
+        </div>
+      )}
   
-        <button 
-          onClick={() => filterGraph('Other')}
-          style={{ backgroundColor: 'black', flexGrow: 1, color: 'white', padding: '2px' }}
+      {/* Filter Options */}
+      {showFilters && (
+        <div 
+          style={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            position: 'absolute', 
+            top: '60px', 
+            right: '10px',
+            zIndex: 10, 
+            backgroundColor: 'rgba(255, 255, 255, 0.9)', 
+            padding: '10px', 
+            borderRadius: '8px',
+            boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+            gap: '10px',
+          }}
         >
-          Other
-        </button>
-  
-        <button 
-          onClick={() => filterGraph('')}
-          style={{ backgroundColor: 'black', flexGrow: 1, color: 'white', padding: '2px' }}
-        >
-          All
-        </button>
-  
-      </div>
+          <button 
+            onClick={() => filterGraph('Greek')}
+            style={{ backgroundColor: 'black', color: 'white', padding: '10px'}}
+          >
+            Greek
+          </button>
+          <button 
+            onClick={() => filterGraph('Roman')}
+            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
+          >
+            Roman
+          </button>
+          <button 
+            onClick={() => filterGraph('Other')}
+            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
+          >
+            Other
+          </button>
+          <button 
+            onClick={() => filterGraph('')}
+            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
+          >
+            All
+          </button>
+        </div>
+      )}
     </div>
   );
-  
-  
 };
 
 export default GraphPage;
