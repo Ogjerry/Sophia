@@ -32,10 +32,6 @@ Besides complete expressions, Frege applied the sense/reference distinction to i
 
 Frege viewed senses and references as objective, existing in a timeless "third realm" independent of language and individual minds. These abstract entities can be shared and communicated, with their existence and truth values unaffected by whether they are thought or expressed.
 
-## To Read More
-[Frege]("https://plato.stanford.edu/entries/frege/")
-
-
 ## Arrow to [Leibniz] ("Discussion")
 
 Frege tackled issues with Leibniz's law of identity, which states that identical things can be substituted without changing truth values. For example:
@@ -50,5 +46,10 @@ If "the morning star" and "the evening star" have the same reference, substituti
 
 If Gottlob doesn't know they're the same, (3) and (4) can differ in truth. Frege solved this by distinguishing <span style = "test-decoration: underline;">primary <span>and <span style = "test-decoration: underline;">secondary<span> references. In indirect speech, the reference of an expression is its usual sense. Hence, in (3) and (4), the references of "the morning star" and "the evening star" are their senses, allowing different truth values.
 
+## Reference and To Read More
+"Gottlob Frege" (https://plato.stanford.edu/entries/frege/)
 
+"Angelelli, I., 1967, Studies on Gottlob Frege and Traditional Philosophy, Dordrecht: D. Reidel."
+
+"Currie, G., 1982, Frege: An Introduction to His Philosophy, Brighton, Sussex: Harvester Press."
 

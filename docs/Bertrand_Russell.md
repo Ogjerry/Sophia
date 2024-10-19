@@ -20,8 +20,6 @@ According to Russell, a definite description does not necessarily refer to a spe
 
 By treating predicates as quantifiers and understanding their logical form, we have a more precise and consistent understanding of meaning and truth conditions.
 
-## To read more
-[Bertran Russell on SEP]( https://plato.stanford.edu/entries/russell/#pagetopright)
 
 ## Arrow to [Frege] ("Difference") ("Refutation")
 
@@ -44,4 +42,5 @@ Russell pointed out a contradiction when thinking about certain sets. Here’s a
 
 This creates a contradiction—a paradox by showingthat  under Frege’s system, it’s possible to have an illogical set.
 
-
+## Reference and To Read More
+"Bertran Russell on SEP" (https://plato.stanford.edu/entries/russell/#pagetopright)
