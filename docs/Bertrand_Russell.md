@@ -21,7 +21,7 @@ According to Russell, a definite description does not necessarily refer to a spe
 By treating predicates as quantifiers and understanding their logical form, we have a more precise and consistent understanding of meaning and truth conditions.
 
 
-## Arrow to [Frege] ("Difference") ("Refutation")
+## Arrow to [Frege] ("Difference")
 
 ### Different understanding of definite Description
 
