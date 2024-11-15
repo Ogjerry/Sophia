@@ -1,4 +1,5 @@
 # Rudolf Carnap
+
 ## Theory Framework and Inductive Logic [Philosophy_of_Science]
 In his investigation in philosophy of science, Carnap tackled with two questions: 1) how scientific theories can be confirmed through observation, and 2) how their empirical content can be assessed.
 

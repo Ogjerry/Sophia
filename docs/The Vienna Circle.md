@@ -39,7 +39,7 @@ The integration of natural sciences with social sciences is another key part of 
 A prominent contribution by Neurath is his boat metaphor: scientific knowledge is a boat being repaired at sea. Scientist cannot step outside of their current knowledge to find a firm foundation. Instead, they must repair and improve the boat while still using it. This metaphor indicates that scientific inquiry is essentially continuous and revisable and that there is no absolute starting point for knowledge. This metaphor also captures the holistic feature of scientific theory: scientific theories cannot be tested or evaluated in isolation. Instead, they must be understood in the context of the entire body of scientific knowledge. When a scientific theory is called into question, it is not just the individual hypothesis under examination but the entire network of theories and methods that support it.
 
 
-## Arrow to [Rudolf Carnap] "Objection"
+## Arrow to [Rudolf Carnap] ("Objection")
 Neurath’s pragmatic philosophy of science is in contrast to the more formal and logic-focused approach of his colleague Rudolf Carnap. While Carnap is focused on formalizing the logical structure of scientific language, Neurath is more concerned with the practical application of science.
 
 Neurath believed that Carnap’s focus on logical precision could sometimes be detached from the realities of scientific practice. He argued that science essentially requires collaboration and that theories should be evaluated based on their practical success, not just on their logical structure. This led Neurath to adopt a more flexible and holistic view of scientific language than Carnap’s more rigid, formalist approach.

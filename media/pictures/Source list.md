@@ -1,4 +1,4 @@
-"Name of picture" hyperlink
+"Name of picture"  hyperlink
 
 "AJ-Ayer" https://www.britannica.com/biography/A-J-Ayer 
 
@@ -30,6 +30,28 @@
 
 "Vienna Circle" https://www.timetoast.com/timelines/mortitz-schlick
 
-"Wiki_Moore" https://commons.wikimedia.org/wiki/File:1914_George_Edward_Moore_(cropped).jpg
-
 "Wittgenstein" https://www.britannica.com/biography/Ludwig-Wittgenstein 
+
+"wiki_Moore" https://commons.wikimedia.org/wiki/File:1914_George_Edward_Moore_(cropped).jpg 
+
+"wiki_Russell" https://somacles.wordpress.com/2009/06/10/preface-and-introduction-from-bertrand-russell%C2%B4s-history-of-western-philosophy/ 
+"wiki_Frege" https://en.wikipedia.org/wiki/Gottlob_Frege 
+
+"wiki_Wittgenstein" https://medium.com/curious/an-introduction-to-ludwig-wittgenstein-e866ec78ed06 
+
+"wiki_Ayer"  https://www.quirkality.com/index.php/the-stories/16-what-a-j-ayer-saw-when-he-was-dead 
+
+"wiki_Carnap" https://www.britannica.com/biography/Rudolf-Carnap 
+
+"wiki_Strawson" https://www.vle.lt/straipsnis/peter-frederick-strawson/ 
+
+"wiki_Austin" https://spui25.nl/programma/j-l-austin-philosopher-and-d-day-intelligence-officer 
+
+"wiki_Ryle" https://www.britannica.com/biography/Gilbert-Ryle 
+
+"wiki_Quine" https://kualiafelsefedergisi.com/2022/08/willard-van-orman-quine-stanford-felsefe-ansiklopedisi/
+
+"wiki_Sellars" https://en.wikipedia.org/wiki/Wilfrid_Sellars
+
+"wiki_Chisholm" https://historia-biografia.com/roderick-chisholm/ 
+
