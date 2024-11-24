@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for triggering'
+        required: false
 
 jobs:
   test:
@@ -12,7 +18,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Run a test command
+      - name: Run a test script
         run: |
           echo "Testing GitHub Actions Runner"
           uname -a
