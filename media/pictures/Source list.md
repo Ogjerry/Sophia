@@ -54,4 +54,3 @@
 "wiki_Sellars" https://en.wikipedia.org/wiki/Wilfrid_Sellars
 
 "wiki_Chisholm" https://historia-biografia.com/roderick-chisholm/ 
-
