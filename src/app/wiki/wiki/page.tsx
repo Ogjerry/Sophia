@@ -32,7 +32,7 @@ function getPhilosopher(philosopher_slug: string) {
           <p>Last updated: {data.last_edit}</p>
           <p>Date created: {data.date_created}</p>
         </div>
-        <img src={"https://backend.sophiaspath.org/" + data.thumbnail} alt={data.name} className="w-1/2 mx-auto hover:rotate-12 transition duration-300 ease-in-out" />
+        <img src={"https://backend.sophiaspath.org/media/p/" + data.slug + "/section-" + data.slug + "-meta.png"} alt={data.name} className="w-1/2 mx-auto hover:rotate-12 transition duration-300 ease-in-out" />
       </div>
     </div>
   );
@@ -59,18 +59,62 @@ function getSections(philosopher_slug: string) {
   return (
     <div className="container mx-auto p-4">
       {data.map((section: any) => (
-
         <div key={section.subtitle}>
-          <div className="h-6"/>
-            <h1 className="text-2xl font-bold mb-4 hover:underline cursor-pointer" onClick={() => {
-              document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth' });
-          }}>{section.subtitle}</h1>
-          <div dangerouslySetInnerHTML={{ __html: section.text }} id={section.id} />
+          <div className="h-6" />
+          {(() => {
+            if (section.section_type === 'm') {
+              return (
+                <div dangerouslySetInnerHTML={{ __html: section.text }} id={section.id} />
+              )
+            } else if (section.section_type === 'r') {
+              const content = section.text;
+              const link = content.split(')');
+              return (
+                <>
+                  <h1
+                    className="text-2xl font-bold mb-4 hover:underline cursor-pointer"
+                    onClick={() => {
+                      document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    Read More
+                  </h1>
+                  {link.map((l: string) => {
+                    const [text, url] = l.split('(');
+                    return (
+                      <>
+                      <a href={url} target="_blank">
+                        {text}
+                      </a>
+                      <br>
+                      </br>
+                      </>
+                    )
+                  })}
+                </>
+              )
+            } else {
+              return (
+                <>
+                  <h1
+                    className="text-2xl font-bold mb-4 hover:underline cursor-pointer"
+                    onClick={() => {
+                      document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    {section.subtitle}
+                  </h1>
+                  <div dangerouslySetInnerHTML={{ __html: section.text }} id={section.id} />
+                </>
+              )
+            }
+          })()}
           {/* TODO: add links to other sections, assume the section text is safe */}
         </div>
       ))}
     </div>
   );
+
 }
 
 // TODO: change id to philosopher_name for better url readability
@@ -92,7 +136,7 @@ export default function WikiPage({ params }: { params: { philosopher_slug: strin
         Back to Graph
       </button>
 
-      <div className="h-6"/>
+      <div className="h-6" />
       <h1 className="text-2xl font-bold mb-4">Wiki Page</h1>
       <h2>{philosopherData}</h2>
       <div className="select-none">
