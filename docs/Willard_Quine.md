@@ -114,14 +114,12 @@ Ultimately, the indeterminacy of translation reveals the limits of linguistic de
 
 
 ## References and To Read More
+Mcginn, Colin. 1997. “Quine: Theories and Things.” In Minds and Bodies. New York, NY: Oxford University Press. https://doi.org/10.1093/oso/9780195113556.003.0025. 
 
-1. Mcginn, Colin. 1997. “Quine: Theories and Things.” In Minds and Bodies. New York, NY: Oxford University Press. https://doi.org/10.1093/oso/9780195113556.003.0025. 
+W. V. Quine, and Roger F. Gibson. 2008. “TWO DOGMAS OF EMPIRICISM.” In Quintessence, 31. Harvard University Press. https://doi.org/10.2307/j.ctv1pncnhw.5.
 
-2. W. V. Quine, and Roger F. Gibson. 2008. “TWO DOGMAS OF EMPIRICISM.” In Quintessence, 31. Harvard University Press. https://doi.org/10.2307/j.ctv1pncnhw.5.
+SEP Entry on Quine: https://plato.stanford.edu/entries/quine/#QuinNatuImpl 
 
-
-3. SEP Entry on Quine: https://plato.stanford.edu/entries/quine/#QuinNatuImpl 
-
-4. Quine, Willard Van Orman, Patricia S Churchland, and Dagfinn Follesdal. 2013. Word and Object. New edition. The MIT Press. https://doi.org/10.7551/mitpress/9636.001.0001.
+Quine, Willard Van Orman, Patricia S Churchland, and Dagfinn Follesdal. 2013. Word and Object. New edition. The MIT Press. https://doi.org/10.7551/mitpress/9636.001.0001.
 
 

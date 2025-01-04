@@ -44,11 +44,7 @@ Sellars’ understanding of meaning challenges Russell's theory of meaning by re
 ## Arrow to [Gottlob_Frege] ("Resonation")
 Sellars’ theory resonates with Frege’s one in their shared emphasis on the inferential and normative aspects of meaning. Both of them reject simplistic referential theories, instead focusing on how meaning is determined by the role of expressions within a broader linguistic or logical system. Frege’s distinction between sense and reference highlights that meaning involves not just direct correspondence to objects but also the conceptual framework through which those objects are apprehended. Similarly, Sellars underlines that meaning arises from the functional roles expressions play within networks of material inferences, such as the transition from “This is red” to “This is colored.” Additionally, both philosophers stress the normativity of language, with Frege treating logic as a normative science and Sellars extending normativity to semantics, arguing that meaning depends on rule-governed linguistic practices within a community. While Frege views thought as primary and language as its vehicle, Sellars inverts this relationship by treating thought as deriving its structure and intelligibility from public linguistic practices, placing greater emphasis on the social foundations of meaning. Despite this distinction, their work aligns in framing meaning as deeply conceptual and inferential rather than merely referential.
 
+## References and To Read More
+deVries, W., & Sachs, C. (2024, October 1). Wilfrid Sellars. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/sellars/ 
 
-
-
-
-
-
-
-
+Shapiro, L. (2014). Sellars on the Function of Semantic Vocabulary. British Journal for the History of Philosophy, 22(4), 792–811. https://doi.org/10.1080/09608788.2014.961404

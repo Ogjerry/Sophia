@@ -45,9 +45,10 @@ Neurath’s pragmatic philosophy of science is in contrast to the more formal an
 Neurath believed that Carnap’s focus on logical precision could sometimes be detached from the realities of scientific practice. He argued that science essentially requires collaboration and that theories should be evaluated based on their practical success, not just on their logical structure. This led Neurath to adopt a more flexible and holistic view of scientific language than Carnap’s more rigid, formalist approach.
 
 ## Refence and To Read More:
-"Vienna Circle" (https://plato.stanford.edu/entries/vienna-circle/)
+Uebel, T. (2024, May 7). Vienna Circle. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/vienna-circle/
 
-“Achinstein, Peter and Stephen Francis Barker (eds.), 1969, The Legacy of Logical Positivism: Studies in the Philosophy of Science, Baltimore, MD: Johns Hopkins Press.”
+Colodny, R. G. (1970). The Legacy of Logical Positivism. Studies in the Philosophy of Science . Peter Achinstein , Stephen F. Barker. Isis, 61(2), 267–268. https://doi.org/10.1086/350631 
 
-“Cat, Jordi and Adam Tamas Tuboly (eds.), 2019, Neurath Reconsidered: New Sources and Perspectives (Boston Studies in the Philosophy and History of Science 336), Cham: Springer. doi:10.1007/978-3-030-02128-3”
+Cat, J., Tuboly, A. T., Tuboly, A. T., Cat, J., Tuboly, A. T., & Cat, J. (2019). Neurath Reconsidered : New Sources and Perspectives (1st ed. 2019., Vol. 336). Springer International Publishing. https://doi.org/10.1007/978-3-030-02128-3
+
 

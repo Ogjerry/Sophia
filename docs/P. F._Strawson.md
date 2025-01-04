@@ -66,3 +66,14 @@ Strawson questions what Austin’s references really link sentences to. Are they
 ## Arrow to [W.V.O_Quine] ("Objection")
 
 W.V.O. Quine challenges the analytic/synthetic distinction. He argued that there was no clear boundary between these two types of statements. Therefore, there is no so-called analyticity. To response, Strawson defended the analytic/synthetic distinction. While he acknowledged the complexities highlighted by Quine, he argued that the distinction still holds because of it usefulness in ordinary language use. In ordinary language, the difference between analytic and synthetic statements is not only meaningful but essential for communication. For instance, understanding the statement “All bachelors are unmarried” as analytically true helps convey its meaning without ambiguity. And in a broader context, the distinction is useful because people intuitively distinguish between truths that stem from meanings and those that rely on empirical facts.
+
+
+## References and To Read More
+Snowdon, P., & Gomes, A. (2023, May 4). Peter Frederick Strawson. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/strawson/ 
+
+Strawson, P. F. (1966). The bounds of sense: an essay on Kant’s “Critique of pure reason.” Methuen.
+
+Brown, C. (2006). Peter Strawson. In Peter Strawson (1st ed., Vol. 9). McGill-Queen’s University Press. https://doi.org/10.4324/9781315712116
+
+
+

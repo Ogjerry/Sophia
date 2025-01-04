@@ -47,9 +47,9 @@ If "the morning star" and "the evening star" have the same reference, substituti
 If Gottlob doesn't know they're the same, (3) and (4) can differ in truth. Frege solved this by distinguishing <span style = "test-decoration: underline;">primary <span>and <span style = "test-decoration: underline;">secondary<span> references. In indirect speech, the reference of an expression is its usual sense. Hence, in (3) and (4), the references of "the morning star" and "the evening star" are their senses, allowing different truth values.
 
 ## Reference and To Read More
-"Gottlob Frege" (https://plato.stanford.edu/entries/frege/)
+Zalta, E. N. (2022, July 9). Gottlob Frege. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/frege/ 
 
-"Angelelli, I., 1967, Studies on Gottlob Frege and Traditional Philosophy, Dordrecht: D. Reidel."
+Angelelli, I. (1967). Studies on Gottlob Frege and Traditional Philosophy. https://doi.org/10.1007/978-94-017-3175-1 
 
-"Currie, G., 1982, Frege: An Introduction to His Philosophy, Brighton, Sussex: Harvester Press."
+Gillies, D. A. (1984). Frege: An Introduction to His Philosophy [Review of Frege: An Introduction to His Philosophy]. The Philosophical Quarterly, 34(137), 518–520. Basil Blackwell. https://doi.org/10.2307/2219078 
 
