@@ -3,8 +3,25 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
+interface Philosopher {
+  name: string;
+  description: string;
+  last_edit: string;
+  date_created: string;
+  slug: string;
+}
+
+interface Section {
+  id: string;
+  slug: string;
+  section_type: string;
+  text: string;
+  parent_section_id: string | null;
+  subtitle: string;
+}
+
 function usePhilosopher(philosopher_slug: string) {
-  const [data, setData] = useState<any | null>(null);
+  const [data, setData] = useState<Philosopher | null>(null);
 
   useEffect(() => {
     fetch(`https://backend.sophiaspath.org/getPhilosopher/${philosopher_slug}?format=json`, {
@@ -21,7 +38,7 @@ function usePhilosopher(philosopher_slug: string) {
 }
 
 function useSections(philosopher_slug: string) {
-  const [data, setData] = useState<any[] | null>(null);
+  const [data, setData] = useState<Section[] | null>(null);
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -91,7 +108,7 @@ export default function WikiPage({ params }: { params: { philosopher_slug: strin
         {isLoading ? (
           <p>Loading...</p>
         ) : sectionsData ? (
-          sectionsData.map((section: any) => (
+          sectionsData.map((section: Section) => (
             <div id={section.id} key={section.slug}>
               <div className="h-6" />
               {(() => {
