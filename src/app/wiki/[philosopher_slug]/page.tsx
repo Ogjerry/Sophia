@@ -1,4 +1,8 @@
 'use client';
+
+export const runtime = 'edge';
+// fix for cloudflare edge runtime: https://nextjs.org/docs/app/api-reference/edge
+
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
