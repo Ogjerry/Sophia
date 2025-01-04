@@ -53,6 +53,19 @@ function getSections(philosopher_slug: string) {
     });
   }, []);
 
+  // scroll to the section when the page is loaded completely
+  useEffect(() => {
+    if (!isLoading && data) {
+      const hash = window.location.hash.substring(1);
+      if (hash) {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }
+  }, [isLoading, data]);
+
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>Sections not found</p>;
 
@@ -62,11 +75,14 @@ function getSections(philosopher_slug: string) {
         <div key={section.subtitle}>
           <div className="h-6" />
           {(() => {
+            // render meta section
             if (section.section_type === 'm') {
               return (
                 <div dangerouslySetInnerHTML={{ __html: section.text }} id={section.id} />
               )
-            } else if (section.section_type === 'r') {
+            } 
+            // render reference section
+            else if (section.section_type === 'r') {
               const content = section.text;
               const link = content.split(')');
               return (
@@ -79,12 +95,12 @@ function getSections(philosopher_slug: string) {
                   >
                     Read More
                   </h1>
-                  {link.map((l: string) => {
+                  {link.map((l: string, index: number) => {
                     const [text, url] = l.split('(');
                     return (
                       <>
-                      <a href={url} target="_blank">
-                        {text}
+                      <a href={url} target="_blank" className="hover:underline">
+                        [{index + 1}]. {text}
                       </a>
                       <br>
                       </br>
@@ -93,7 +109,10 @@ function getSections(philosopher_slug: string) {
                   })}
                 </>
               )
-            } else {
+            } 
+            // render normal section
+            else {
+              if (section.parent_section_id === null) {
               return (
                 <>
                   <h1
@@ -102,11 +121,31 @@ function getSections(philosopher_slug: string) {
                       document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth' });
                     }}
                   >
-                    {section.subtitle}
+                    <a href={`#${section.slug}`} id={section.slug}>{section.subtitle}</a>
                   </h1>
                   <div dangerouslySetInnerHTML={{ __html: section.text }} id={section.id} />
                 </>
-              )
+                )
+              }
+              // render child section
+              else {
+                return (
+                  <div className="flex">
+                    <div className="w-1/12"></div> {/* This div creates the tab space */}
+                    <div className="w-11/12">
+                      <h2
+                        className="text-xl font-bold mb-4 hover:underline cursor-pointer"
+                        onClick={() => {
+                          document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth' });
+                        }}
+                      >
+                        <a href={`#${section.slug}`} id={section.slug}>{section.subtitle}</a>
+                      </h2>
+                      <div dangerouslySetInnerHTML={{ __html: section.text }} id={section.id} />
+                    </div>
+                  </div>
+                )
+              }
             }
           })()}
           {/* TODO: add links to other sections, assume the section text is safe */}
