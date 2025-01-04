@@ -19,4 +19,8 @@ Still aiming to systematically construct knowledge, Carnap was focused on the de
 One feature of Carnpa’s logical structure is that it is devoid of meaning. Instead, Carnap insists in the idea that so called meaningful statements must either directly relate to empirical observations or can be translated into logical forms. This feature aligns with the physcialism within Vienna Circle that all knowledge are reducible interms of physics.
 
 ## Reference and To Read More
+Leitgeb, H., & Carus, A. (2020, May 5). Rudolf Carnap. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/carnap/
+
+Richardson, A. W. (1998). Carnap’s construction of the world : the Aufbau and the emergence of logical empiricism. Cambridge University Press.
+
 

@@ -27,5 +27,4 @@ Unity of science is the idea that all branches of science- both natural science 
 The background of this idea at the time was the aim to develop a common scientific language where concepts and terms used in one discipline could be translated and used in others. And this stems from a deeper metaphysical commitment called physicalism, which suggests that all sciences are ultimately reducible to physics. 
 
 ## Reference and To Read More
-
-"Logical Empiricism" (https://plato.stanford.edu/entries/logical-empiricism/)
+Creath, R. (2022, September 21). Logical empiricism. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/logical-empiricism/

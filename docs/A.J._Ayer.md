@@ -48,3 +48,8 @@ In addition to emotional expression, according to Ayer, ethical statements also 
 Ayer distinguishes emotivism from subjectivism. Subjectivism suggests that moral statements describe the speaker’s feelings. In this sense, descriptions of feelings contain truth value– it can be true or false. For example, if someone says “Murder is wrong,” subjectivists would take it as an equivalent way of saying “I disapprove of murder.” This is a statement about their own feelings, and it can be true or false– depending on whether the statement accurately reflects the speaker’s feelings. Meanwhile, for emotivists, if someone says “Murder is wrong,” it is equivalent to saying “Boo to murder!” as a mere emotional expression. In this case, the statement does not express anything factual and thus does not have any truth value.
 
 ## Reference and To Read More
+Macdonald, G., & Krishnan, N. (2018, September 4). Alfred Jules Ayer. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/ayer/ 
+
+
+
+

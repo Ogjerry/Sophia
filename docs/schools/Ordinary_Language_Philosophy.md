@@ -19,6 +19,7 @@ Ordinary Language philosophy emerged in the early 20th century. And it was signi
 
 In contrast, proponents of Ordinary Language philosophy argued that everyday language is sufficient to express reality. Rather than seeing ordinary language as an obstacle that needed refinement, they argue that philosophical clarity could be achieved by carefully attending to how words are typically used in common discourse. This approach was seen as more grounded, dealing with how people actually communicate and make sense of the world.
 
-
+## References and To Read More
+Parker-Ryan, S. Ordinary Language Philosophy. Internet encyclopedia of philosophy. https://iep.utm.edu/ord-lang/ 
 
 

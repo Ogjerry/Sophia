@@ -43,4 +43,6 @@ Russell pointed out a contradiction when thinking about certain sets. Here’s a
 This creates a contradiction—a paradox by showingthat  under Frege’s system, it’s possible to have an illogical set.
 
 ## Reference and To Read More
-"Bertran Russell on SEP" (https://plato.stanford.edu/entries/russell/#pagetopright)
+Irvine, A. D. (2024, October 15). Bertrand Russell. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/russell/#pagetopright 
+
+

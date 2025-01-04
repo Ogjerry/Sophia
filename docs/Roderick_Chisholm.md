@@ -50,3 +50,7 @@ He argues that the self is a simple substance, not composed of divisible or redu
 ## Refernces and to Read More
 Gettier, E. L. “Is Justified True Belief Knowledge?” Analysis 23, no. 6 (June 1, 1963): 121–23. https://doi.org/10.1093/analys/23.6.121. 
 
+Feldman, R., & Feldman, F. (2023, October 27). Roderick Chisholm. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/chisholm/
+
+
+

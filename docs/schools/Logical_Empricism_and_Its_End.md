@@ -15,3 +15,8 @@ Formal Logic and Semantics: The work of Carnap continues to underpin development
 Epistemology and Methodology: The debates initiated by Logical Emrpicism, such as those concerning confirmation and theory reduction, are still open under contemporary investigations.
 
 Rather than representing a fixed set of arguments, logical empiricism now serves as a reference point and inspiration, integrating into broader traditions of analytic philosophy and philosophy of science.
+
+## Refernces and To Read More
+Creath, R. (2022, September 21). Logical empiricism. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/logical-empiricism/ 
+
+

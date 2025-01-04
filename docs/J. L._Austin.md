@@ -39,5 +39,6 @@ Austin opposes the sense-data theory of perception, which suggest that we primar
 2. Peceptions are not passive. Our perception is under interpretation and judgment. That means illusions are essentially misinterpretations of our experience. And this does not prove that perception is inherently idirect. Instead this shows tha fallibility of our judgment. 
 
 ## References and To Read More
+Longworth, G. (2021, June 30). John Langshaw austin. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/austin-jl/#ActiFree 
 
-SEP entry of Austin https://plato.stanford.edu/entries/austin-jl/#ActiFree 
+Fiengo, R. (2017). On the Representation of Form and Function: Imperative Sentences. In Interpreting J.L. Austin (pp. 60–78). https://doi.org/10.1017/9781316421840.004 

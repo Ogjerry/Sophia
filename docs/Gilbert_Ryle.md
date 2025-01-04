@@ -43,7 +43,7 @@ Rather than aligning with behaviorism, Ryle focuses on the **observable criteria
 
 
 ## References and To Read More:
-SEP of Ryle: https://plato.stanford.edu/entries/ryle/#Car 
+Tanney, J. (2021, May 12). Gilbert Ryle. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/ryle/#Car 
 
 
 Ryle Gilbert, 1949, The Concept of Mind, London: Hutchinson. Page references are to the 2000 republication, London: Penguin Books.

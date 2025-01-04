@@ -50,11 +50,11 @@ The Vienna Circle's theory of meaning was influenced by Ludwig Wittgenstein’s 
 Wittgenstein is often considered one of the central figures of Ordinary Language Philosophy, particularly due to his later works. His emphasis on the analysis of languages’ daily usage,  clarification of misunderstanding, and attention to context was widely taken by philosophers in the Oridinary Language Philosophy movements.
 
 ## Reference and To Read More
-"Ludwig Wittgenstein on SEP" (https://plato.stanford.edu/entries/wittgenstein/) 
+Biletzki, A., & Matar, A. (2021, October 20). Ludwig Wittgenstein. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/wittgenstein/ 
 
-“Hacker, P. M. S., 1996, Wittgenstein’s Place in Twentieth-century Analytic Philosophy, Oxford: Blackwell.”
+Hacker, P. M. S., & McManus, D. (1998). Wittgenstein’s place in twentieth-century analytic philosophy [Review of Wittgenstein’s place in twentieth-century analytic philosophy]. International Journal of Philosophical Studies : IJPS, 6(3), 425–434. 
 
-“Appelqvist, Hanne (ed.), 2020, Wittgenstein and the Limits of Language, New York and London: Routledge.”
+
  
 
 

@@ -21,12 +21,10 @@ Moore suggested three kinds of relation between our perception and sense data<su
 2. Moore introduces the concept of sense-data as the primary objects of experience, describing them as the color, shape, and size that we perceive directly.
 
 ## Reference and To read more
-"Goerge Edward Moore Entry on SEP" (https://plato.stanford.edu/entries/moore/)
+Baldwin, T. (2004, March 26). George Edward Moore. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/moore/ 
 
-"Entry on IEP" (https://iep.utm.edu/moore/) 
+Preston, A. George Edward Moore (1873—1958). Internet encyclopedia of philosophy. https://iep.utm.edu/moore/ 
 
-"About Moore's moral theory" (https://plato.stanford.edu/entries/moore-moral/)
+Hurka, T. (2021, March 22). Moore’s moral philosophy. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/moore-moral/
 
-"P. Hylton Russell, Idealism and the Emergence of Analytic Philosophy Oxford University Press, Oxford: 1990."
-
-"C. D. Broad ‘Certain Features in Moore's Ethical Doctrines’ in P. A. Schilpp (ed.) The Philosophy of G. E. Moore."
+Hylton, P. (1992). Russell, Idealism, and the Emergence of Analytic Philosophy. https://doi.org/10.1093/019824018x.001.0001 
