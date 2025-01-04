@@ -117,8 +117,6 @@ function getSections(philosopher_slug: string) {
 
 }
 
-// TODO: change id to philosopher_name for better url readability
-
 export default function WikiPage({ params }: { params: { philosopher_slug: string } }) {
   const philosopherData = getPhilosopher(params.philosopher_slug);
   const sectionsData = getSections(params.philosopher_slug);
