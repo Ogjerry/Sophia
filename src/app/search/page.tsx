@@ -17,20 +17,29 @@ export default function SearchPage() {
     }
   }, [search, sortOrder]);
 
+  // TODO: Add lazy loading on the backend
+
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Search Results for "{search}"</h1>
+      
       <div className="mb-4">
-        <label className="mr-2">Sort by:</label>
-        <select
-          className="border border-gray-300 rounded p-2"
-          value={sortOrder}
-          onChange={(e) => setSortOrder(e.target.value)}
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold mr-2">Search Results for "{search}"</h1>
+            </div>
+            <div>
+              <label className="mr-2">Sort by:</label>
+              <select
+              className="border border-gray-300 rounded p-2"
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value)}
         >
           <option value="relevance">Relevance</option>
           <option value="latest">Latest</option>
           <option value="oldest">Oldest</option>
         </select>
+        </div>
+      </div>
       </div>
       <div>
         {results.length > 0 ? (
