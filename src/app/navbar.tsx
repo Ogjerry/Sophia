@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="bg-gray-100 p-4 flex items-center">
         <h1 className="text-2xl font-bold flex-shrink-0 cursor-pointer">
-        <Link href="/">Sophia's Path</Link>
+        <Link href="/">Sophia&apos;s Path</Link>
       </h1>
       <div className="flex justify-center w-full mx-4">
         <form className="w-full max-w-md" onSubmit={(e) => { 

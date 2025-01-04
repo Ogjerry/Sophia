@@ -25,7 +25,7 @@ export default function SearchPage() {
       <div className="mb-4">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold mr-2">Search Results for "{search}"</h1>
+            <h1 className="text-2xl font-bold mr-2">Search Results for &ldquo;{search}&rdquo;</h1>
             </div>
             <div>
               <label className="mr-2">Sort by:</label>
