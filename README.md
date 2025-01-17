@@ -30,3 +30,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+## Deploy on Cloudflare
+
+Fork this repo and follow the tutorial:
+
+[Cloudflare Pages](https://developers.cloudflare.com/pages/configuration/git-integration/)
+
+if you are unsure about the deployment on pages, you can run `npm run build` locally to check if everything is going well.
