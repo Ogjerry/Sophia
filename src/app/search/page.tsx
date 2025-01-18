@@ -25,7 +25,7 @@ function Search() {
           setResults(data.sections);
           setTotalPages(data.total_pages);
           setLoading(false);
-        }).catch(error => {
+        }).catch(() => {
           setResults(null);
           setLoading(false);
           setTotalPages(0);
@@ -91,7 +91,6 @@ function Search() {
 }
 
 export default function SearchPage() {
-  const [page, setPage] = useState(0);
 
   return (
     <Suspense fallback={<div>Loading...</div>}>

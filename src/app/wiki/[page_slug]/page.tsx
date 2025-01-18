@@ -6,7 +6,7 @@ export const runtime = 'edge';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import { Tooltip, Button } from 'flowbite-react';
+import { Tooltip } from 'flowbite-react';
 
 // render markdown text with html
 // reference: https://stackoverflow.com/questions/70548725/any-way-to-render-html-in-react-markdown
@@ -52,7 +52,7 @@ function usePage(page_slug: string) {
       }
       setData(resJson);
       document.title = "Wiki - " + resJson.name;
-    }).catch(error => {
+    }).catch(() => {
       setData(null);
     });
 
@@ -89,8 +89,8 @@ function useSections(page_slug: string) {
         }
         // preload footnotes to storage
         if (section.section_type === 'n') { 
-          let footnotes: { [key: string]: string } = {};
-          section.text.split('\n').map((line: string, index: number) => {
+          const footnotes: { [key: string]: string } = {};
+          section.text.split('\n').map((line: string) => {
             // validate the line is a footnote
             const match = line.match(/(\d+)\.\s+(.+)/);
             if (match) {
@@ -103,7 +103,7 @@ function useSections(page_slug: string) {
       });
       setData(resJson);
       setLoading(false);
-    }).catch(error => {
+    }).catch(() => {
       setData(null);
       setLoading(false);
     });
