@@ -17,7 +17,7 @@ Despite his groundbreaking work, Frege’s logicism faced challenges. Russell’
 
 ## III. Sense and Reference [Philosophy of Language] [Ontology]
 
-Gottlob Frege's theory of meaning is mainly focused on the distinction between <span style = "test-decoration: underline;">sense <span> and  <span style = "test-decoration: underline;">reference<span>. Think of an equation “4 x 2 = 11 - 3”. While the “=” sign denotes a strict identity, expressions  "4 x 2" and "11 - 3" refer to the same number (eight “8”) but present it differently. Thus, Frege demarcated the difference between the reference (the actual entity, like the number eight) and the sense (the way the entity is presented).
+Gottlob Frege's theory of meaning is mainly focused on the distinction between <span style = "text-decoration: underline;">sense <span> and  <span style = "text-decoration: underline;">reference<span>. Think of an equation “4 x 2 = 11 - 3”. While the “=” sign denotes a strict identity, expressions  "4 x 2" and "11 - 3" refer to the same number (eight “8”) but present it differently. Thus, Frege demarcated the difference between the reference (the actual entity, like the number eight) and the sense (the way the entity is presented).
 
 Of course, this distinction is beyond mathematical expressions and applicable to all linguistic expressions, including natural and formal languages. Frege illustrated this point with the expressions "the morning star" and "the evening star," both referring to the planet Venus but presenting it differently. Here, the reference is Venus, while the sense involves the different properties.
 
@@ -44,7 +44,7 @@ If "the morning star" and "the evening star" have the same reference, substituti
     (3) Gottlob believes that the morning star is a planet.
     (4) Gottlob believes that the evening star is a planet.
 
-If Gottlob doesn't know they're the same, (3) and (4) can differ in truth. Frege solved this by distinguishing <span style = "test-decoration: underline;">primary <span>and <span style = "test-decoration: underline;">secondary<span> references. In indirect speech, the reference of an expression is its usual sense. Hence, in (3) and (4), the references of "the morning star" and "the evening star" are their senses, allowing different truth values.
+If Gottlob doesn't know they're the same, (3) and (4) can differ in truth. Frege solved this by distinguishing <span style = "text-decoration: underline;">primary <span>and <span style = "text-decoration: underline;">secondary<span> references. In indirect speech, the reference of an expression is its usual sense. Hence, in (3) and (4), the references of "the morning star" and "the evening star" are their senses, allowing different truth values.
 
 ## Reference and To Read More
 Zalta, E. N. (2022, July 9). Gottlob Frege. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/frege/ 

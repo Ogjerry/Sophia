@@ -1,9 +1,10 @@
 # Bertrand Russell
 
 ## I. The distinction between direct and indirect knowledge of truths[Epistemology] [Ontology]
-<span style = "test-decoration: underline;">Direct knowledge<span>: this type of knowledge is immediate, intuitive, certain, and infallible. It refers to knowledge that is acquired without the need for inference or mediation. Direct knowledge includes knowledge of immediate facts of sensation and truths of logic. For example, knowledge of one's own current mental state or knowledge of basic logical principles would be considered direct knowledge.
 
-<span style = "test-decoration: underline;">Indirect Knowledge<span>: this type of knowledge is derivative, uncertain, and open to error. It is based on inference and depends on more fundamental, direct or intuitive knowledge claims. Indirect knowledge claims must be justified by being derived from more certain knowledge claims. For example, knowledge about the existence of physical objects or knowledge about scientific theories would fall under indirect knowledge.
+<span style = "text-decoration: underline;">Direct knowledge</span>: this type of knowledge is immediate, intuitive, certain, and infallible. It refers to knowledge that is acquired without the need for inference or mediation. Direct knowledge includes knowledge of immediate facts of sensation and truths of logic. For example, knowledge of one's own current mental state or knowledge of basic logical principles would be considered direct knowledge.
+
+<span style = "text-decoration: underline;">Indirect Knowledge</span>: this type of knowledge is derivative, uncertain, and open to error. It is based on inference and depends on more fundamental, direct or intuitive knowledge claims. Indirect knowledge claims must be justified by being derived from more certain knowledge claims. For example, knowledge about the existence of physical objects or knowledge about scientific theories would fall under indirect knowledge.
 
 ## II. Analysis[Epistemology] [Ontology]
 Russell emphasizes the importance of focusing on the more certain entities to build the theory of knowledge. He argues that our understanding of the world should be based on direct, intuitive, and certain knowledge claims, rather than relying solely on inference or speculation.
@@ -34,11 +35,11 @@ On the other hand, Russell argued that definite descriptions do not refer to any
 In Fege's logicism, numbers are understood as value-ranges, which are extensions of concepts. For exmaple, number 5 is taken as the extension of a concept like "holding 3 cards" and "reading 3 books"
 
 Russell pointed out a contradiction when thinking about certain sets. Here’s an example:
-- Imagine a set that contains all sets that <span style = "test-decoration: underline;">do not<span> contain themselves.
+- Imagine a set that contains all sets that <span style = "text-decoration: underline;">do not<span> contain themselves.
     ` Call this the set "S."
 - Now, ask the question: Does S contain itself?
-   `  If "S" does contain itself, then by definition, it should not contain itself (because "S" is supposed to contain only sets that don’t contain themselves).
-    ` But if "S"<span style = "test-decoration: underline;"> does not<span> contain itself, then by definition, it must contain itself (because "S" contains all sets that don’t contain themselves).
+   -  If "S" does contain itself, then by definition, it should not contain itself (because "S" is supposed to contain only sets that don’t contain themselves).
+   -  But if "S"<span style = "text-decoration: underline;"> does not</span> contain itself, then by definition, it must contain itself (because "S" contains all sets that don’t contain themselves).
 
 This creates a contradiction—a paradox by showingthat  under Frege’s system, it’s possible to have an illogical set.
 
