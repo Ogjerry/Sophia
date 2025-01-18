@@ -94,7 +94,7 @@ function useSections(page_slug: string) {
             // validate the line is a footnote
             const match = line.match(/(\d+)\.\s+(.+)/);
             if (match) {
-              const [_, index, content] = match;
+              const [, index, content] = match;
               footnotes[index] = content;
             }
           });
