@@ -1,6 +1,6 @@
 # J. L. Austin
 
-## Language and Philosophy [metaphysics] [phil_of_language]
+## Language and Philosophy [ontology] [philosophy_of_language]
 
 Austin is a supporter of ordinary language philosophy by believing that philosophical problems stem from misunderstanding of how language is used in daily life. As many other supporters of ordinary language philosophy, Austin advocates for a close exmaniantion of how people use ordinary language in everyday life instead of inventing technical jargons or analysing abstract theoretical freamworks. 
 

@@ -1,5 +1,5 @@
 # Gilbert Ryle
-## The category mistakes [metaphysics] [phil_of_language]
+## The category mistakes [ontology] [phil_of_language]
 Ryle identifies some philosophical problems as **category mistakes**, or what he calls type-errors. These mistakes occur when concepts or expressions are misapplied to inappropriate logical categories, and the misapplicaiton therefore leads to absurd statements. The example Ryle discusses is treating “mind” and “body” as if they were comparable entities. Assertion such as “There is a mind and a body” does not make sense because “mind” and “body” belong to different logical categories. Making disjunction of them is nonsensical. 
 
 Ryle explains that category mistaken is rooted in the systematic ambiguities in natural languages. He argues that words frequently have different “logical powers” depending on their context. This kind of variability is not polysemy (e.g., ambiguous terms like “bank”) but is more about logical and syntactical structures. Many philosophical problems arise since this variability is overlooked. 
@@ -13,7 +13,7 @@ Ryle critiques the traditiaonl view that meanings and concepts are independent, 
 
 To illustrate how to study concept and meaning in a integral way, Ryle offers the example of how Aristotle studied Plato’s account of pleasure. Aristotle did not attempt to examine "pleasure" as an isolated entity but instead analyzed what is actually asserted or denied in particular cases—such as when someone enjoys a concert. For Ryle, the verb "enjoys" captures specific contributions to meaning that the abstract "pleasure" cannot fully encapsulate.
 
-## Critique of Official Doctrine [metaphysics] [epistemology] [phil_of_mind]
+## Critique of Official Doctrine [ontology] [epistemology] [phil_of_mind]
 Ryle's *The Concept of Mind* focuses on dismantling what he terms the "Official Doctrine," rooted in Cartesian dualism. This doctrine posits a fundamental distinction between mind and body, conceptualized as separate substances or realms.
 
 ### Official Doctrine
@@ -25,6 +25,7 @@ Official Doctrine asserts the existence of two fundamentally distinct kinds of e
 And this dichotomy leads to **the mind-body problem**: how can two such disparate substances interact causally? Descartes, for example, maintained that mental and physical substances could influence each other despite their distinct natures, but this interaction remains a controversial philosophical puzzle.
 
 Moreover, the dualism also extends to the realm of epistemology by distinguishing the accessibility of different kinds of processes:
+
 1. Mental Processes: Conceived as private, accessible only through introspection or immediate self-awareness.
 
 2. Bodily Processes: Publicly observable, subject to third-party verification.

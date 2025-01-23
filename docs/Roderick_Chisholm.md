@@ -1,5 +1,5 @@
 # Roderick Chisholm
-## Addressing the "Criterion Problem" [Epistemology]
+## Addressing the "Criterion Problem" [epistemology]
 Chisholm’s epistemology begins with the "problem of the criterion," an ancient epistemological dilemma. This problem concerns the interdependence of two fundamental questions: "What do we know?" and "What are the criteria for knowledge?" Skepticism arises when the inability to independently answer either question leads to an unacceptable circularity. To address this, Chisholm adopts particularism, the view that we should start with paradigm cases of knowledge—specific instances where we are confident that we know something—and use them to infer the criteria for knowing. This approach contrasts with methodism, which begins by attempting to establish general criteria for knowledge without assuming any specific knowledge. Following the tradition of Thomas Reid and G.E. Moore, Chisholm’s particularism reflects a “common-sense” epistemology, assuming that we know more or less what we think we know upon careful reflection.
 
 ### Defense of Foundationalism
@@ -13,7 +13,7 @@ Chisholm develops a nuanced hierarchy of epistemic justification to classify bel
 
 These levels reflect Chisholm’s careful attention to the gradations of justification and his effort to establish a clear standard for knowledge while avoiding overly stringent criteria that might render skepticism true by definition.
 
-## Definition of Knowledge and Gettier Problem [Epistemology]
+## Definition of Knowledge and Gettier Problem [epistemology]
 Chisholm’s analysis of knowledge is built on the traditional framework of justified true belief (JTB). In respondence to the challenges of circularity and the inadequacies suggested by Gettier problem, Chisholm's refinements aim to provide a robust account of what it means to know something, clarifying the conditions necessary for knowledge while preserving its distinctiveness from mere true belief.
 
 Chisholm begins with the traditional definition of knowledge, where knowledge is defined as a belief that is both true and justified. This definition seeks to distinguish knowledge from mere true opinion or lucky guesses. However, Chisholm recognizes a potential circularity in this framework, particularly when justification is understood in terms of evidence that presupposes the concept of knowledge itself. To address this, Chisholm introduces the concept of evidence as a technical term for epistemic appraisal. He defines justification in terms of a primitive relationship of epistemic preferability, avoiding reliance on the concept of knowledge. This reformulation enables a clearer, non-circular understanding of justification, distinguishing it as a condition that elevates belief to the status of knowledge.
@@ -31,15 +31,15 @@ In 1963, Edmund Gettier (1963) published counterexamples demonstrating that just
 Chisholm acknowledges the force of Gettier’s challenge and its implications for the traditional analysis. In response, he proposes revisions to his framework, including the possibility of adding a fourth condition to address the gap revealed by Gettier cases. This additional condition would account for the reliability or non-defectiveness of the justification, ensuring that knowledge cannot arise from accidental truths supported by flawed evidence.
 
 
-## The Nature of Persons and Critique of Materialism [Ontology] [Phil_of_mind]
+## The Nature of Persons and Critique of Materialism [ontology] [philosophy_of_mind]
 Chisholm’s contributions to metaphysics center on the nature of persons and his critique of materialist conceptions of human identity. He defends a view of the self as a unified and persistent entity, rejecting reductionist accounts of personal identity. Through his distinctions between independent and dependent beings, Chisholm develops a framework that emphasizes the irreducibility of the self to purely material or physical terms.
 
 On the nature of persons, Chisholm rejects the bundle theory of personal identity, famously associated with David Hume, which posits that a person is nothing more than a collection of discrete mental states and impressions held together by causal or psychological relations. Instead, Chisholm argues for the persistence of a unified self—an enduring subject of experiences that exists independently of the states it undergoes. For Chisholm, the self is not a composite of its properties or experiences but an entity with an ontological status that persists through time.
 
 To articulate this, Chisholm distinguishes between two types of entities:
 
-1. Ens per se: Self-standing entities that exist independently of other things. The self, in Chisholm’s view, falls into this category as it is not contingent on other entities for its existence.
-2. Ens per alio: Dependent entities whose existence relies on other entities. Examples include properties or states that are contingent on a subject or object to which they belong.
+1. *Ens per se*: Self-standing entities that exist independently of other things. The self, in Chisholm’s view, falls into this category as it is not contingent on other entities for its existence.
+2. *Ens per alio*: Dependent entities whose existence relies on other entities. Examples include properties or states that are contingent on a subject or object to which they belong.
 
 By situating persons as ens per se, Chisholm affirms their status as fundamental entities, not reducible to aggregates of dependent properties or states.
 

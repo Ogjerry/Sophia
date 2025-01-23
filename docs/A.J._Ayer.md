@@ -1,6 +1,6 @@
 # A.J. Ayer
 
-## I. Meaning and Knowledge [Epistemology] [Philosophy_of_Language]
+## I. Meaning and Knowledge [epistemology] [philosophy_of_language]
 
 ### The Verification Principle
 
@@ -24,7 +24,7 @@ Ayer’s theory of knowledge defines knowledge as:
 In Ayer’s view, knowledge depends on having sufficient justification according to the standards in the context. And the context is the source of “the right to be sure.” In this sense, Ayer emphasizes a definition of knowledge based on evidence that is good enough for practical purposes, even if it does not meet a strict or infallible certainty.
 “The right to be sure” in Ayer’s definition of knowledge highlights the context-sensitive feature of justification. Indeed, justification can take place differently in different contexts: in different domains—such as mathematics, science, or everyday life—the level of evidence required to justify a belief varies: In mathematics, one must provide formal proof to justify a knowledge claim. In science, justification often comes from empirical evidence, which is open to change and refinement. So, scientific knowledge doesn’t require absolute certainty, just strong, empirically grounded support. And in everyday context, even less strict evidence is sufficient for knowledge.
 
-## Perception [Philosophy_of_Mind]
+## Perception [philosophy_of_mind]
 
 There is a shift in Ayer’s theory on perception. In a nutshell, Ayer shifted from Phenomenalism, which he adopted in his early works, to Realism. We will this shift chronologically in following paragraphs.
 
@@ -42,7 +42,7 @@ According to Ayer, this interpretive framework is important because it enables u
 Besides the limit of phenomenalism, another motive for Ayer’s shift to realism is the argument from illusion. The argument suggests that our perception must involve mental representations rather than direct access to the external world since we can experience illusions where our perception does not match reality. For instance, a stick appears bent in water, but it does not mean that the stick is actually bent. Instead, it is an illusion in our perception.
 Based on this argument from illusion, Ayer argues that our perceptions are essentially interpretations of sensory experiences, not direct experiences of physical objects. Since our sensory experiences are sometimes misleading, our perception is indirect. In this story of perception, sense data serve as intermediaries between our mind and the external world.
 
-## Ethics
+## Ethics [ethics]
 
 ### Emotivism and the Rejection of Moral Facts
 
