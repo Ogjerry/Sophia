@@ -10,25 +10,238 @@ const GraphPage = () => {
   const [showFilterButton, setShowFilterButton] = useState(false); // State for showing/hiding the filter toggle button
 
   const initialNodes = useMemo(() => [
-    { id: 1, label: 'Plato', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Greek' },
-    { id: 2, label: 'Aristotle', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Greek' },
-    { id: 3, label: 'Juno', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Roman' },
-    { id: 4, label: 'Node 1', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Roman' },
-    { id: 5, label: 'Node 2', shape: 'dot', color: { border: '#000000', background: '#ffffff' }, size: 20, group: 'Other' },
-  ], []);// Empty array to only initialize once
+    // Logical Atomism (Category Frame)
+    {
+      id: 1,
+      label: "Logical Atomism",
+      shape: "box",
+      fixed: true,
+      x: -400,
+      y: 0,
+      color: { background: "#e3f2fd", border: "#42a5f5" },
+      widthConstraint: 400,
+      heightConstraint: 300,
+      level: 1,
+      group: "Logical Atomism", // Group for filtering
+    },
+    // Logical Atomism Philosophers
+    {
+      id: 2,
+      label: "Bertrand Russell",
+      shape: "image",
+      image: "media/Russell.png",
+      level: 2,
+      fixed: true,
+      x: -500,
+      y: -100,
+      group: "Logical Atomism", // Group for filtering
+    },
+    {
+      id: 3,
+      label: "Ludwig Wittgenstein",
+      shape: "image",
+      image: "media/Wittgenstein.png",
+      level: 2,
+      fixed: true,
+      x: -400,
+      y: 0,
+      group: "Logical Atomism", // Group for filtering
+    },
+    {
+      id: 4,
+      label: "Gottlob Frege",
+      shape: "image",
+      image: "media/Frege.png",
+      level: 2,
+      fixed: true,
+      x: -300,
+      y: 100,
+      group: "Logical Atomism", // Group for filtering
+    },
+  
+    // Logical Positivism (Category Frame)
+    {
+      id: 5,
+      label: "Logical Positivism",
+      shape: "box",
+      fixed: true,
+      x: 200,
+      y: 0,
+      color: { background: "#fce4ec", border: "#e91e63" },
+      widthConstraint: 400,
+      heightConstraint: 300,
+      level: 1,
+      group: "Logical Positivism", // Group for filtering
+    },
+    // Logical Positivism Philosophers
+    {
+      id: 6,
+      label: "Vienna Circle",
+      shape: "image",
+      image: "media/Vienna Circle.png",
+      level: 2,
+      fixed: true,
+      x: 100,
+      y: -100,
+      group: "Logical Positivism", // Group for filtering
+    },
+    {
+      id: 7,
+      label: "A.J. Ayer",
+      shape: "image",
+      image: "media/AJ-Ayer.png",
+      level: 2,
+      fixed: true,
+      x: 200,
+      y: 0,
+      group: "Logical Positivism", // Group for filtering
+    },
+    {
+      id: 8,
+      label: "Rudolf Carnap",
+      shape: "image",
+      image: "media/Carnap.png",
+      level: 2,
+      fixed: true,
+      x: 300,
+      y: 100,
+      group: "Logical Positivism", // Group for filtering
+    },
+  
+    // Ordinary Language Philosophy (Category Frame)
+    {
+      id: 9,
+      label: "Ordinary Language Philosophy",
+      shape: "box",
+      fixed: true,
+      x: 800,
+      y: 0,
+      color: { background: "#fff9c4", border: "#fbc02d" },
+      widthConstraint: 400,
+      heightConstraint: 300,
+      level: 1,
+      group: "Ordinary Language Philosophy", // Group for filtering
+    },
+    // Ordinary Language Philosophy Philosophers
+    {
+      id: 10,
+      label: "P.F. Strawson",
+      shape: "image",
+      image: "media/Strawson.png",
+      level: 2,
+      fixed: true,
+      x: 700,
+      y: -100,
+      group: "Ordinary Language Philosophy", // Group for filtering
+    },
+    {
+      id: 11,
+      label: "J.L. Austin",
+      shape: "image",
+      image: "media/Austin.png",
+      level: 2,
+      fixed: true,
+      x: 800,
+      y: 0,
+      group: "Ordinary Language Philosophy", // Group for filtering
+    },
+    {
+      id: 12,
+      label: "Gilbert Ryle",
+      shape: "image",
+      image: "media/Ryle.png",
+      level: 2,
+      fixed: true,
+      x: 900,
+      y: 100,
+      group: "Ordinary Language Philosophy", // Group for filtering
+    },
+  
+    // Logical Empiricism and Its End (Category Frame)
+    {
+      id: 13,
+      label: "Logical Empiricism and its End",
+      shape: "box",
+      fixed: true,
+      x: 1400,
+      y: 0,
+      color: { background: "#e8f5e9", border: "#4caf50" },
+      widthConstraint: 400,
+      heightConstraint: 300,
+      level: 1,
+      group: "Logical Empiricism and its End", // Group for filtering
+    },
+    // Logical Empiricism Philosophers
+    {
+      id: 14,
+      label: "Willard Van Orman Quine",
+      shape: "image",
+      image: "media/Quine.png",
+      level: 2,
+      fixed: true,
+      x: 1300,
+      y: -100,
+      group: "Logical Empiricism and its End", // Group for filtering
+    },
+    {
+      id: 15,
+      label: "Wilfrid Sellars",
+      shape: "image",
+      image: "media/Sellars.png",
+      level: 2,
+      fixed: true,
+      x: 1400,
+      y: 0,
+      group: "Logical Empiricism and its End", // Group for filtering
+    },
+    {
+      id: 16,
+      label: "Roderick Chisholm",
+      shape: "image",
+      image: "media/Chisholm.png",
+      level: 2,
+      fixed: true,
+      x: 1500,
+      y: 100,
+      group: "Logical Empiricism and its End", // Group for filtering
+    },
+  ], []); // Empty array to only initialize once
+  
 
   const edges = useMemo(() =>[
-    { from: 1, to: 2 },
-    { from: 1, to: 5 },
-    { from: 2, to: 3 },
-    { from: 2, to: 4 },
-    { from: 3, to: 4 },
+    // Logical Atomism connections
+    { from: 1, to: 5, label: "Objection", arrows: "to", color: { color: "red" } },
+    { from: 5, to: 6, label: "Influence", arrows: "to", color: { color: "green" } },
+    { from: 5, to: 7, label: "Objection", arrows: "to", color: { color: "red" } },
+  
+    // Logical Positivism connections
+    { from: 2, to: 8, label: "Originates", arrows: "to", color: { color: "blue" } },
+    { from: 8, to: 9, label: "Objection", arrows: "to", color: { color: "red" } },
+  
+    // Ordinary Language Philosophy connections
+    { from: 3, to: 10, label: "Develops", arrows: "to", color: { color: "blue" } },
+    { from: 3, to: 11, label: "Influence", arrows: "to", color: { color: "green" } },
+    { from: 3, to: 12, label: "Objection", arrows: "to", color: { color: "red" } },
+  
+    // Logical Empiricism and its End connections
+    { from: 4, to: 13, label: "Resonation", arrows: "to", color: { color: "blue" } },
+    { from: 4, to: 14, label: "Resonation", arrows: "to", color: { color: "blue" } },
+    { from: 4, to: 15, label: "Objection", arrows: "to", color: { color: "red" } },
   ], []);// Empty array to only initialize once
 
   // Initialize network and D3 zoom
   useEffect(() => {
     if (containerRef.current) {
       const options = {
+        layout: {
+          hierarchical: {
+            enabled: true,
+            direction: 'LR', // Left-to-right layout
+            sortMethod: 'directed',
+            nodeSpacing: 150,
+            levelSeparation: 200,
+          },
+        },
         nodes: {
           borderWidth: 2,
           shadow: true,
@@ -125,25 +338,25 @@ const GraphPage = () => {
           }}
         >
           <button 
-            onClick={() => filterGraph('Greek')}
+            onClick={() => filterGraph('Logical Atomism')}
             style={{ backgroundColor: 'black', color: 'white', padding: '10px'}}
           >
             Greek
           </button>
           <button 
-            onClick={() => filterGraph('Roman')}
+            onClick={() => filterGraph('Logical Positivism')}
             style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
           >
             Roman
           </button>
           <button 
-            onClick={() => filterGraph('Other')}
+            onClick={() => filterGraph('Ordinary Language Philosophy')}
             style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
           >
             Other
           </button>
           <button 
-            onClick={() => filterGraph('')}
+            onClick={() => filterGraph('Logical Empiricism and its End')}
             style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
           >
             All
