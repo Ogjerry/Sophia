@@ -5,23 +5,23 @@ Strawson emphasized that when we make truth claims, we are not talking about the
 ## An Introduction to Logical Theory [logics]
 In An Introduction to Logical Theory, Strawson aims to bridge the gap between the formal logic and the way language is used in everyday life. The book includes an analysis of some key logical concepts:
 
-**Entailment**
+- **Entailment**:
 With the emphasis on entailment as the fundamental aspect of logic, Strawson suggests that statements can logically entail others if denying the entailed statement while accepting the original results ina contradiction. For example, if “P” emtails “Q”, then “P and not Q” would be contradictory.
 
-**Self-Contradiction**
+- **Self-Contradiction**"
 Strawson explains contradictions as statements that essentially “cancel themselves out,” suggesting nothing coherent. 
 
 Then, in Strawson’s analysis of the difference between formal logic and ordinary language, he points out that formal logic, used by philosophers and theorists, does not always align with daily use of language. And this difference is embodied in various aspects:
 
-Truth-Functional Connectives: 
+- **Truth-Functional Connectives**: 
 In formal logic, connectives like "and," "or," and "if...then..." (represented as logical symbols ∧, ∨, →) are defined by precise truth conditions. For instance, "P and Q" (P ∧ Q) is true only when both P and Q are true. Strawson observes that these formal definitions do not reflect the subtleties of how these connections are used in natural language. For example, the phrase “or” in ordinary language can be exclusive (this or that, but not both) or inclusive (this or that, or both), whereas in formal logic, it is typically deemed as inclusive. 
 
-Precise logic:
+- **Precise logic**:
 Strawson argued that ordinary language connectives often convey meanings that go beyond truth-functional logic. For example, when we say, "He didn't go to the meeting because he was sick," we imply causation that formal logic does not capture with its simple use of "because." Strawson also suggests that ordinary language expressions do not always fit into the binary true/false structure that formal logic uses. Formal logic overlooks many features in everyday language including nuances, context, and presuppositions that formal logic overlooks.
 
 
-## *Individuals* [Metaphysics]
-In his work Individuals*, Strawson distinguishes *descriptive metaphysics* and *revisionary metaphysics*. 
+## *Individuals* [ontology]
+In his work *Individuals*, Strawson distinguishes **descriptive metaphysics** and **revisionary metaphysics**. 
 
 Descriptive metaphysics is the approach of describing the basic, foundational structures of our thought and cognition. Strawson holds that there exists a core set of concepts embedded in human thinking that remain constant and form the basis of our experience of reality. The idea is that these concepts—such as those related to space and time—are universal and deeply ingrained in the way we understand the world. 
 

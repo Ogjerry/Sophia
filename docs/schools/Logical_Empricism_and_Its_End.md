@@ -3,11 +3,14 @@ Logical empiricism, as a philosophical movement, brought together a diverse grou
 
 ## How Did Logical Empiricism End?
 By the 1960s, logical empiricism had lost its coherence as a unified movement. The reason for this dissolution from philosophical side is mainly about two aspects:
+
 **Criticism from Within and Without**: Critics, including former adherents, argued against key principles of Logical Empiricism such as verificationism and the analytic-synthetic distinction. Figures like W.V.O. Quine, in his essay Two Dogmas of Empiricism, challenged its foundations, leading to significant reevaluations within the movement.
+
 **Shifts in Philosophical Focus**: Philosophy moved away from the questions of forms and principles toward concerns about language, meaning, and practical applicability. This shift can be connected to the rise of ordinary language philosophy and the influence of later Wittgenstein.
 
 ## From Movement to Tradition
-However, Logical Empricism had a profouding influence on the other subfileds of philosophy. In particular, the logical empricist tradition remains vibrant in the following disciplines:
+However, Logical Empricism had a profouding influence on other subfileds of philosophy. In particular, the logical empricist tradition remains vibrant in the following disciplines:
+
 Philosophy of Science: The focus on scientific reasoning, empirical methods, and the demarcation of science from pseudoscience remains central.
 
 Formal Logic and Semantics: The work of Carnap continues to underpin developments in logic and the study of language.
