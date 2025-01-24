@@ -11,6 +11,9 @@ const GraphPage = () => {
   const [showFilterButton, setShowFilterButton] = useState(false);
 
 
+  // add backend general access path
+
+
   // add backend image access path
   const PHILOSOPHER_IMAGE_BASE_URL = 'https://backend.sophiaspath.org/media/pic/';
 
@@ -24,6 +27,7 @@ const GraphPage = () => {
         label: 'Logical Atomism',
         group: 'Logical Atomism',
         shape: 'box',
+        wikiUrl: 'www.sophiaspath.org/wiki/logical-atomism',
         // Use margin to avoid text overlap inside the box
         margin: { top: 30, right: 30, bottom: 30, left: 30 },
         color: { background: '#e3f2fd', border: '#42a5f5' },
@@ -36,6 +40,7 @@ const GraphPage = () => {
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Russell.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/bertrand-russell'
       },
       {
         id: 3,
@@ -50,6 +55,7 @@ const GraphPage = () => {
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Gottlob-Frege.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/Frege'
       },
 
       // ---------- Logical Positivism BOX ----------
@@ -69,6 +75,7 @@ const GraphPage = () => {
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Vienna-Circle.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/the-vieena-circle'
       },
       {
         id: 7,
@@ -76,6 +83,7 @@ const GraphPage = () => {
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'AJ-Ayer.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/ajayer'
       },
       {
         id: 8,
@@ -116,6 +124,7 @@ const GraphPage = () => {
         group: 'Ordinary Language Philosophy',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Ryle.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/gilbert-ryle'
       },
 
       // ---------- Logical Empiricism BOX ----------
@@ -124,6 +133,7 @@ const GraphPage = () => {
         label: 'Logical Empiricism and its End',
         group: 'Logical Empiricism and its End',
         shape: 'box',
+        wikiUrl: 'www.sophiaspath.org/wiki/logical-empricism',
         margin: { top: 30, right: 30, bottom: 30, left: 30 },
         color: { background: '#e8f5e9', border: '#4caf50' },
         font: { size: 16, color: '#343a40' },
@@ -244,6 +254,25 @@ const GraphPage = () => {
         } else {
           setShowFilters(false);
           setShowFilterButton(false);
+        }
+      });
+
+      // set double click wiki redirection
+      networkInstance.on('doubleClick', (params) => {
+        if (params.nodes && params.nodes.length > 0) {
+          // Get the ID of the double-clicked node
+          const nodeId = params.nodes[0];
+    
+          // Retrieve the clicked node's data
+          const nodeData = initialNodes.find((node) => node.id === nodeId);
+    
+          if (nodeData && nodeData.wikiUrl) {
+            // Open the wiki URL in a new tab
+            const url = nodeData.wikiUrl.startsWith('http')
+              ? nodeData.wikiUrl
+              : `https://${nodeData.wikiUrl}`;
+            window.open(url, '_blank');
+          }
         }
       });
     }
