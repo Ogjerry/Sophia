@@ -10,55 +10,44 @@ const GraphPage = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [showFilterButton, setShowFilterButton] = useState(false);
 
-
-  // add backend general access path
-
-
-  // add backend image access path
   const PHILOSOPHER_IMAGE_BASE_URL = 'https://backend.sophiaspath.org/media/pic/';
 
-  // 1) Define nodes. Each "faction" is a big box node with some margin.
-  //    Philosophers are image nodes with the same 'group' property.
+  // 1) Define your nodes (same as before)
   const initialNodes = useMemo(
     () => [
-      // ---------- Logical Atomism BOX ----------
       {
         id: 1,
         label: 'Logical Atomism',
         group: 'Logical Atomism',
         shape: 'box',
         wikiUrl: 'www.sophiaspath.org/wiki/logical-atomism',
-        // Use margin to avoid text overlap inside the box
         margin: { top: 30, right: 30, bottom: 30, left: 30 },
         color: { background: '#e3f2fd', border: '#42a5f5' },
         font: { size: 18, color: '#343a40', multi: false },
       },
-      // Logical Atomism Philosophers
       {
         id: 2,
-        label: 'Bertrand Russell',
+        label: 'B. Russell',
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Russell.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/bertrand-russell'
+        wikiUrl: 'www.sophiaspath.org/wiki/bertrand-russell',
       },
       {
         id: 3,
-        label: 'Ludwig Wittgenstein',
+        label: 'L. Wittgenstein',
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Wittgenstein.png',
       },
       {
         id: 4,
-        label: 'Gottlob Frege',
+        label: 'G. Frege',
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Gottlob-Frege.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/Frege'
+        wikiUrl: 'www.sophiaspath.org/wiki/Frege',
       },
-
-      // ---------- Logical Positivism BOX ----------
       {
         id: 5,
         label: 'Logical Positivism',
@@ -68,14 +57,13 @@ const GraphPage = () => {
         color: { background: '#fce4ec', border: '#e91e63' },
         font: { size: 18, color: '#343a40' },
       },
-      // Logical Positivism Philosophers
       {
         id: 6,
         label: 'Vienna Circle',
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Vienna-Circle.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/the-vieena-circle'
+        wikiUrl: 'www.sophiaspath.org/wiki/the-vieena-circle',
       },
       {
         id: 7,
@@ -83,27 +71,24 @@ const GraphPage = () => {
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'AJ-Ayer.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/ajayer'
+        wikiUrl: 'www.sophiaspath.org/wiki/ajayer',
       },
       {
         id: 8,
-        label: 'Rudolf Carnap',
+        label: 'R. Carnap',
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Carnap.png',
       },
-
-      // ---------- Ordinary Language BOX ----------
       {
         id: 9,
-        label: 'Ordinary Language Philosophy',
+        label: 'Ordinary Language',
         group: 'Ordinary Language Philosophy',
         shape: 'box',
         margin: { top: 30, right: 30, bottom: 30, left: 30 },
         color: { background: '#fff9c4', border: '#fbc02d' },
         font: { size: 16, color: '#343a40' },
       },
-      // Ordinary Language Philosophers
       {
         id: 10,
         label: 'P.F. Strawson',
@@ -120,17 +105,15 @@ const GraphPage = () => {
       },
       {
         id: 12,
-        label: 'Gilbert Ryle',
+        label: 'G. Ryle',
         group: 'Ordinary Language Philosophy',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Ryle.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/gilbert-ryle'
+        wikiUrl: 'www.sophiaspath.org/wiki/gilbert-ryle',
       },
-
-      // ---------- Logical Empiricism BOX ----------
       {
         id: 13,
-        label: 'Logical Empiricism and its End',
+        label: 'Logical Empiricism',
         group: 'Logical Empiricism and its End',
         shape: 'box',
         wikiUrl: 'www.sophiaspath.org/wiki/logical-empricism',
@@ -138,24 +121,23 @@ const GraphPage = () => {
         color: { background: '#e8f5e9', border: '#4caf50' },
         font: { size: 16, color: '#343a40' },
       },
-      // Logical Empiricism Philosophers
       {
         id: 14,
-        label: 'Willard Van Orman Quine',
+        label: 'W. Quine',
         group: 'Logical Empiricism and its End',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Quine.png',
       },
       {
         id: 15,
-        label: 'Wilfrid Sellars',
+        label: 'W. Sellars',
         group: 'Logical Empiricism and its End',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Sellars.png',
       },
       {
         id: 16,
-        label: 'Roderick Chisholm',
+        label: 'R. Chisholm',
         group: 'Logical Empiricism and its End',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Chisholm.png',
@@ -164,55 +146,113 @@ const GraphPage = () => {
     []
   );
 
-  // 2) Build edges to keep philosophers near their box, plus any custom edges
-  const edges = useMemo(
-    () => [
-      // Keep each philosopher near its faction box
-      // "length" controls how close or far they'll orbit the box under physics
-      { from: 1, to: 2, length: 120 },
-      { from: 1, to: 3, length: 120 },
-      { from: 1, to: 4, length: 120 },
+  // 2) Define edges, including label = 'Influence', 'Objection', 'Resonation' where appropriate
+  const edges = useMemo(() => [
+    // Keep each philosopher near box
+    { from: 1, to: 2, length: 150 },
+    { from: 1, to: 3, length: 150 },
+    { from: 1, to: 4, length: 150 },
+    { from: 5, to: 6, length: 150 },
+    { from: 5, to: 7, length: 150 },
+    { from: 5, to: 8, length: 150 },
+    { from: 9, to: 10, length: 150 },
+    { from: 9, to: 11, length: 150 },
+    { from: 9, to: 12, length: 150 },
+    { from: 13, to: 14, length: 150 },
+    { from: 13, to: 15, length: 150 },
+    { from: 13, to: 16, length: 150 },
 
-      { from: 5, to: 6, length: 120 },
-      { from: 5, to: 7, length: 120 },
-      { from: 5, to: 8, length: 120 },
+    // 1) Bertrand Russell (2) objects G. Frege (4)
+  {
+    from: 2,
+    to: 4,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
 
-      { from: 9, to: 10, length: 120 },
-      { from: 9, to: 11, length: 120 },
-      { from: 9, to: 12, length: 120 },
+  // 2) P.F. Strawson (10) objects J.L. Austin (11), Quine (14),
+  //    Vienna Circle (6), and Russell (2)
+  {
+    from: 10,
+    to: 11,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
+  {
+    from: 10,
+    to: 14,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
+  {
+    from: 10,
+    to: 6,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
+  {
+    from: 10,
+    to: 2,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
 
-      { from: 13, to: 14, length: 120 },
-      { from: 13, to: 15, length: 120 },
-      { from: 13, to: 16, length: 120 },
+  // 3) Ludwig Wittgenstein (3) influences Vienna Circle (6)
+  {
+    from: 3,
+    to: 6,
+    label: 'Influence',
+    arrows: 'to',
+    color: { color: 'green' },
+  },
 
-      // -- EXAMPLE: Cross-group edges you want to keep (Influence/Objection) --
-      // If you want to replicate your original custom edges, just add them here.
-      // Example:
-      // { from: 2, to: 7, label: 'Influence', arrows: 'to', color: { color: 'green' } },
-      // { from: 3, to: 10, label: 'Objection', arrows: 'to', color: { color: 'red' } },
-    ],
-    []
-  );
+  // 4) Vienna Circle (6) objects Rudolf Carnap (8)
+  {
+    from: 6,
+    to: 8,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
 
-  // 3) Initialize network with physics
+  // 5) Wilfrid Sellars (15) resonates with G. Frege (4) but objects to Russell (2)
+  {
+    from: 15,
+    to: 4,
+    label: 'Resonation',
+    arrows: 'to',
+    color: { color: 'blue' },
+  },
+  {
+    from: 15,
+    to: 2,
+    label: 'Objection',
+    arrows: 'to',
+    color: { color: 'red' },
+  },
+
+  ], []);
+
+  // 3) Initialize network
   useEffect(() => {
     if (containerRef.current) {
       const options = {
-        // Turn off hierarchical layout
-        layout: {
-          hierarchical: false,
-        },
+        layout: { hierarchical: false },
         physics: {
           enabled: true,
           solver: 'forceAtlas2Based',
           forceAtlas2Based: {
-            gravitationalConstant: -40,
-            centralGravity: 0.002,
-            springLength: 100,
+            gravitationalConstant: -35,
+            centralGravity: 0.005,
+            springLength: 200,
             springConstant: 0.08,
           },
-          // tweak "stabilization"
-          stabilization: { iterations: 100 },
+          stabilization: { enabled: false },
         },
         nodes: {
           borderWidth: 2,
@@ -230,6 +270,7 @@ const GraphPage = () => {
         },
       };
 
+      // Create the network
       const networkInstance = new Network(
         containerRef.current,
         { nodes: initialNodes, edges },
@@ -237,7 +278,7 @@ const GraphPage = () => {
       );
       networkRef.current = networkInstance;
 
-      // D3 zoom + built-in zoom
+      // D3 zoom if needed
       const svg = d3.select(containerRef.current as HTMLDivElement);
       const zoom: d3.ZoomBehavior<HTMLDivElement, unknown> = d3
         .zoom<HTMLDivElement, unknown>()
@@ -247,7 +288,7 @@ const GraphPage = () => {
         });
       svg.call(zoom);
 
-      // set filters default mode
+      // Show filter button only on node click
       networkInstance.on('click', (params) => {
         if (params.nodes.length > 0) {
           setShowFilterButton(true);
@@ -257,17 +298,12 @@ const GraphPage = () => {
         }
       });
 
-      // set double click wiki redirection
+      // Double-click => open wiki if present
       networkInstance.on('doubleClick', (params) => {
         if (params.nodes && params.nodes.length > 0) {
-          // Get the ID of the double-clicked node
           const nodeId = params.nodes[0];
-    
-          // Retrieve the clicked node's data
           const nodeData = initialNodes.find((node) => node.id === nodeId);
-    
           if (nodeData && nodeData.wikiUrl) {
-            // Open the wiki URL in a new tab
             const url = nodeData.wikiUrl.startsWith('http')
               ? nodeData.wikiUrl
               : `https://${nodeData.wikiUrl}`;
@@ -278,16 +314,67 @@ const GraphPage = () => {
     }
   }, [edges, initialNodes]);
 
-  // 4) Filter function (same as before). Hide nodes that don't match the chosen group.
-  const filterGraph = (group: string) => {
-    if (networkRef.current) {
-      const filteredNodes = initialNodes.map((node) => ({
-        ...node,
-        hidden: group !== '' && node.group !== group,
-      }));
-      networkRef.current.setData({ nodes: filteredNodes, edges });
+  //
+  // 4) Filter by relationship:
+  //    Only show edges (and the nodes connected by them) that match the chosen label.
+  //    Then zoom in on those nodes.
+  //
+  const filterByRelationship = (relationship: string | null) => {
+    if (!networkRef.current) return;
+    const net = networkRef.current;
+  
+    // If no relationship => reset to show all
+    if (!relationship) {
+      net.setData({ nodes: initialNodes, edges });
+      
+      // Fit on all nodes:
+      const allNodeIds = initialNodes.map((node) => node.id);
+      net.fit({
+        nodes: allNodeIds,
+        animation: {
+          duration: 1000,
+          easingFunction: 'easeInOutQuad',
+        },
+      });
+      return;
     }
+  
+    // 1. Find relevant edges
+    const relevantEdges = edges.filter((e) => e.label === relationship);
+  
+    // 2. Collect node IDs from relevant edges
+    const nodeIds = new Set<number>();
+    relevantEdges.forEach((edge) => {
+      nodeIds.add(edge.from as number);
+      nodeIds.add(edge.to as number);
+    });
+    const nodeIdArray = Array.from(nodeIds);
+  
+    // 3. Hide any nodes not in nodeIds
+    const filteredNodes = initialNodes.map((node) => ({
+      ...node,
+      hidden: !nodeIds.has(node.id),
+    }));
+  
+    // 4. Hide any edges not in relevantEdges
+    const filteredEdges = edges.map((edge) => ({
+      ...edge,
+      hidden: !relevantEdges.includes(edge),
+    }));
+  
+    // 5. Update the network with the filtered data
+    net.setData({ nodes: filteredNodes, edges: filteredEdges });
+  
+    // 6. Zoom in on relevant nodes
+    net.fit({
+      nodes: nodeIdArray,
+      animation: {
+        duration: 1000,
+        easingFunction: 'easeInOutQuad',
+      },
+    });
   };
+  
 
   return (
     <div style={{ position: 'relative' }}>
@@ -326,7 +413,7 @@ const GraphPage = () => {
         <div
           style={{
             display: 'flex',
-            justifyContent: 'center',
+            flexDirection: 'column',
             position: 'absolute',
             top: '60px',
             right: '10px',
@@ -339,31 +426,25 @@ const GraphPage = () => {
           }}
         >
           <button
-            onClick={() => filterGraph('Logical Atomism')}
-            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
+            onClick={() => filterByRelationship('Influence')}
+            style={{ backgroundColor: 'green', color: 'white', padding: '10px' }}
           >
-            Logical Atomism
+            Influence
           </button>
           <button
-            onClick={() => filterGraph('Logical Positivism')}
-            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
+            onClick={() => filterByRelationship('Objection')}
+            style={{ backgroundColor: 'red', color: 'white', padding: '10px' }}
           >
-            Logical Positivism
+            Objection
           </button>
           <button
-            onClick={() => filterGraph('Ordinary Language Philosophy')}
-            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
+            onClick={() => filterByRelationship('Resonation')}
+            style={{ backgroundColor: 'blue', color: 'white', padding: '10px' }}
           >
-            Ordinary Language
+            Resonation
           </button>
           <button
-            onClick={() => filterGraph('Logical Empiricism and its End')}
-            style={{ backgroundColor: 'black', color: 'white', padding: '10px' }}
-          >
-            Logical Empiricism
-          </button>
-          <button
-            onClick={() => filterGraph('')} // Show all
+            onClick={() => filterByRelationship(null)} // Show all
             style={{ backgroundColor: 'grey', color: 'white', padding: '10px' }}
           >
             Show All
