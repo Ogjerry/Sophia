@@ -22,8 +22,6 @@ Epistemology and Methodology: The debates initiated by Logical Emrpicism, such a
 
 Rather than representing a fixed set of arguments, logical empiricism now serves as a reference point and inspiration, integrating into broader traditions of analytic philosophy and philosophy of science.
 
-## Refernces and To Read More
+## References and To Read More
 
-"Creath, R. (2022, September 21). Logical empiricism. Stanford Encyclopedia of Philosophy." (https://plato.stanford.edu/entries/logical-empiricism/)
-
-
+[Creath, R. (2022, September 21). Logical empiricism. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/logical-empiricism/)

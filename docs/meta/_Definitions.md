@@ -17,7 +17,9 @@ This is a note for arrow starting from the current node to the specified [Node] 
 ## Reference and To Read More
 
 ```markdown
-"Reference" (URL)
+[<reference>](<reference-url>)
 ```
 
-This is the where I add the refence and the link of them.
+PS: _changed to markdown default hyperlink rendering on 2025.02.01_
+
+This is the where I add the reference and the link of them.

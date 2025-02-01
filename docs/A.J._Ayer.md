@@ -29,11 +29,13 @@ In Ayer’s view, knowledge depends on having sufficient justification according
 There is a shift in Ayer’s theory on perception. In a nutshell, Ayer shifted from Phenomenalism, which he adopted in his early works, to Realism. We will this shift chronologically in following paragraphs.
 
 ### Ayer’s Initial Commitment to Phenomenalism
+
 Phenomenalism suggests that our statements about physical objects can be translated into statements about sensory experiences. (or so-called “sense data”) According to phenomenalism, what we call “physical objects” are essentially collections of sensory experiences. So what we call “a chair” is a collection of possible sensory experiences that we might have. Interestingly, phenomenalism aligns with Ayer’s verification principle by ensuring that physical object statements are meaningful because they are grounded in observable sensory experiences. 
 
 However, Ayer recognized certain challenges in phenomenalism, especially its view of the reduction of statements about physical objects to sensory experiences. In particular, physical objects are more than a collection of sensory experiences: they also imply stability, continuity, and a kind of objectivity that sense data alone cannot fully account for.
 
 ### Shift to Sophisticated Realism
+
 Given the limits, Ayer moved toward the so-called sophisticated realism. Such a position argues that besides sense data, our perception of physical objects also involves an interpretive framework or theoretical structure. Imagine you are sitting in a room and see a cup on a table in front of you. You directly experience certain sense data: the shape of the cup, its color, and shadow, etc. When you leave the room, you no longer see the cup. However, you continue to believe it exits on the table. Such a belief is not derived from continuous sense data from the cup but from your interpretive framework. An interpretive framework makes the inference that physical objects continue to exist even when unobserved.
 According to Ayer, this interpretive framework is important because it enables us to organize and make sense of sensory data as representing stable physical objects. In this sense, physical objects are therefore a part of a “secondary system” that we impose on our raw sense data. Without this interpretive framework, our sensory experiences would lack coherence, and we would not be able to speak meaningfully about a consistent, objective reality.
 
@@ -58,8 +60,4 @@ Ayer distinguishes emotivism from subjectivism. Subjectivism suggests that moral
 
 ## Reference and To Read More
 
-Macdonald, G., & Krishnan, N. (2018, September 4). Alfred Jules Ayer. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/ayer/ 
-
-
-
-
+[Macdonald, G., & Krishnan, N. (2018, September 4). Alfred Jules Ayer. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/ayer/)

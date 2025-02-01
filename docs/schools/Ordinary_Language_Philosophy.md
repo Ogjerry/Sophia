@@ -14,10 +14,6 @@ For example, the word "know" in ordinary use could express daily certainties, li
 
 Many ordinary language philosophers believe that many metaphysical problems are not genuine problems but are instead rooted in linguistic confusion. For instance, asking the question “what is time” treats time as an object with tractable essence. But this is not a good assumption of time. Instead, to answer this question, we need to look at how "time" is discussed in normal conversation – as a measure, a sequence, or an experience, instead of an object.
 
-## References and To Read More
-
-"IEP entry of Ordinary Language Philosophy" (https://iep.utm.edu/ord-lang/)
-
 ## Arrow to  [Vienna_Circle] ("Objection")
 
 Ordinary Language philosophy emerged in the early 20th century. And it was significantly shaped by reactions against the rigid and formal approaches by Logical Atomism. Many members in Vienna Circle and such as Rudolph Carnap, aimed to build an ‘ideal’ language that could perfectly represent reality through strict logical structure. They considered natural language to be flawed and ambiguous.
@@ -26,6 +22,6 @@ In contrast, proponents of Ordinary Language philosophy argued that everyday lan
 
 ## References and To Read More
 
-"Parker-Ryan, S. Ordinary Language Philosophy. Internet encyclopedia of philosophy." (https://iep.utm.edu/ord-lang/)
+[Parker-Ryan, S. Ordinary Language Philosophy. Internet encyclopedia of philosophy.](https://iep.utm.edu/ord-lang/)
 
-
+[IEP entry of Ordinary Language Philosophy](https://iep.utm.edu/ord-lang/)

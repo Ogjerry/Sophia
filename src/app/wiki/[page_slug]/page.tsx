@@ -196,7 +196,10 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
                         Read More
                       </h1>
                       {link.map((l: string, index: number) => {
-                        const [text, url] = l.split('(');
+                        const regex = /\[([^\]]+)\]\(([^)]+)\)/;
+                        const match = l.match(regex);
+                        const text = match ? match[1] : l;
+                        const url = match ? match[2] : "";
                         return (
                           <div key={`reference-${index}`}>
                             <a href={url} target="_blank" className="hover:underline">

@@ -18,7 +18,7 @@ According to Moore, analysis is an important method of philosophical study. In h
 
 Moore suggested three kinds of relation between our perception and sense data<sup>2</sup>: indirect realism, phenomenalism, and direct realism. Indirect realism suggests that sense-data are non-physical but produced by interactions between physical objects and our senses. Phenomenalism posits that our conception of physical objects is based on observed and anticipated uniformities among sense data. Direct realism, on the other hand, suggests that sense data are parts of physical objects. Moore adopts a direct realist position, which suggests that sense-data are physical objects.
 
-## Footnotes 
+## Footnotes
 
 1. The distinction between <span style = "text-decoration: underline;"> intrinsic value</span> and <span style = "text-decoration: underline;"> instrumental value</span>: According to Moore, intrinsic value is the value inherent in a situation, independent of its consequences. Friendship, for instance, can be regarded as possessing intrinsic value since it is desirable itself for no further reason. Moore distinguishes intrinsic value from instrumental value, which depends on the situation's consequences. If exchanging gift, for example, is helpful to enhance friendship, it has instrumental value. While instrumental value can be defined in terms of the intrinsic value of a situation's consequences, intrinsic value remains the fundamental conception of value.
 
@@ -26,10 +26,10 @@ Moore suggested three kinds of relation between our perception and sense data<su
 
 ## Reference and To read more
 
-Baldwin, T. (2004, March 26). George Edward Moore. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/moore/ 
+[Baldwin, T. (2004, March 26). George Edward Moore. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/moore/)
 
-Preston, A. George Edward Moore (1873—1958). Internet encyclopedia of philosophy. https://iep.utm.edu/moore/ 
+[Preston, A. George Edward Moore (1873—1958). Internet encyclopedia of philosophy.](https://iep.utm.edu/moore/)
 
-Hurka, T. (2021, March 22). Moore’s moral philosophy. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/moore-moral/
+[Hurka, T. (2021, March 22). Moore’s moral philosophy. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/moore-moral/)
 
-Hylton, P. (1992). Russell, Idealism, and the Emergence of Analytic Philosophy. https://doi.org/10.1093/019824018x.001.0001 
+[Hylton, P. (1992). Russell, Idealism, and the Emergence of Analytic Philosophy.](https://doi.org/10.1093/019824018x.001.0001)

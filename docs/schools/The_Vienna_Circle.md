@@ -55,10 +55,8 @@ Neurath believed that Carnap’s focus on logical precision could sometimes be d
 
 ## Refence and To Read More:
 
-Uebel, T. (2024, May 7). Vienna Circle. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/vienna-circle/
+[Uebel, T. (2024, May 7). Vienna Circle. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/vienna-circle/)
 
-Colodny, R. G. (1970). The Legacy of Logical Positivism. Studies in the Philosophy of Science . Peter Achinstein , Stephen F. Barker. Isis, 61(2), 267–268. https://doi.org/10.1086/350631 
+[Colodny, R. G. (1970). The Legacy of Logical Positivism. Studies in the Philosophy of Science . Peter Achinstein , Stephen F. Barker. Isis, 61(2), 267–268.](https://doi.org/10.1086/350631) 
 
-Cat, J., Tuboly, A. T., Tuboly, A. T., Cat, J., Tuboly, A. T., & Cat, J. (2019). Neurath Reconsidered : New Sources and Perspectives (1st ed. 2019., Vol. 336). Springer International Publishing. https://doi.org/10.1007/978-3-030-02128-3
-
-
+[Cat, J., Tuboly, A. T., Tuboly, A. T., Cat, J., Tuboly, A. T., & Cat, J. (2019). Neurath Reconsidered : New Sources and Perspectives (1st ed. 2019., Vol. 336). Springer International Publishing.](https://doi.org/10.1007/978-3-030-02128-3)

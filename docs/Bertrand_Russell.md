@@ -37,12 +37,14 @@ In Fege's logicism, numbers are understood as value-ranges, which are extensions
 Russell pointed out a contradiction when thinking about certain sets. Here’s an example: Imagine a set that contains all sets that <u>do not</u> contain themselves. Call this the set "S." 
 
 Now, ask the question: Does S contain itself?
-   -  If "S" does contain itself, then by definition, it should not contain itself (because "S" is supposed to contain only sets that don’t contain themselves).
-   -  But if "S"<span style = "text-decoration: underline;"> does not</span> contain itself, then by definition, it must contain itself (because "S" contains all sets that don’t contain themselves).
+
+- If "S" does contain itself, then by definition, it should not contain itself (because "S" is supposed to contain only sets that don’t contain themselves).
+- But if "S"　<span style = "text-decoration: underline;">does not</span> contain itself, then by definition, it must contain itself (because "S" contains all sets that don’t contain themselves).
 
 This creates a contradiction—a paradox by showing that  under Frege’s system, it’s possible to have an illogical set.
 
 ## Reference and To Read More
-Irvine, A. D. (2024, October 15). Bertrand Russell. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/russell/#pagetopright 
+
+[Irvine, A. D. (2024, October 15). Bertrand Russell. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/russell/#pagetopright)
 
 

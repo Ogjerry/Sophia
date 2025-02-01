@@ -28,4 +28,4 @@ The background of this idea at the time was the aim to develop a common scientif
 
 ## Reference and To Read More
 
-"Creath, R. (2022, September 21). Logical empiricism. Stanford Encyclopedia of Philosophy." (https://plato.stanford.edu/entries/logical-empiricism/)
+[Creath, R. (2022, September 21). Logical empiricism. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/logical-empiricism/)

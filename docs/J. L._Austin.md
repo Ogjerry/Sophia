@@ -14,9 +14,9 @@ Another aspect of the relation between language and philosophy, proposed by Aust
 
 ## Language and Truth [epistemology] [phil_of_language]
 
-Austin emphasizes that “truth” is not merely about endorsing a statement but is a **descriptive function**. Specifically, saying something is “true” is describing a relationship between the statement and the fact it refers to. To clarify the role of statements, Austin makes the distinction between **descriptive conventions** and **demonstrative conventions**. By descriptive conventions, these conventions establish the general types of facts in the world. For instance, “the cat is on the mat” describes a type of situation where a cat is positioned on a mat. On the other hand, demonstrative conventions specify how specific instances are organized on a particular occasion. For instance, when someone says “The cat is on the mat,” they point to a specific cat on a mat in a particular context where their discussion is particular instead of general. 
+Austin emphasizes that “truth” is not merely about endorsing a statement but is a **descriptive function**. Specifically, saying something is “true” is describing a relationship between the statement and the fact it refers to. To clarify the role of statements, Austin makes the distinction between **descriptive conventions** and **demonstrative conventions**. By descriptive conventions, these conventions establish the general types of facts in the world. For instance, “the cat is on the mat” describes a type of situation where a cat is positioned on a mat. On the other hand, demonstrative conventions specify how specific instances are organized on a particular occasion. For instance, when someone says “The cat is on the mat,” they point to a specific cat on a mat in a particular context where their discussion is particular instead of general.
 
-By emphasizing the context, intent, and purpose of language, Austin rejects the binary understanding of statement as either true or false. For example, in a schoolbook for general geography, the statement “France is hexagonal” can be true because it provides a practical, though simplified, description for a pedagogical purpose. However, in a serious geographic research paper, the same statement can be false because it is oversimplifed. The reason for this difference, as Austin highlights, is that the truth value is purpose-sensitive. That is to say that the truth of statements depends on the intentions and context behind the statement and audience’s expectations. 
+By emphasizing the context, intent, and purpose of language, Austin rejects the binary understanding of statement as either true or false. For example, in a schoolbook for general geography, the statement “France is hexagonal” can be true because it provides a practical, though simplified, description for a pedagogical purpose. However, in a serious geographic research paper, the same statement can be false because it is oversimplifed. The reason for this difference, as Austin highlights, is that the truth value is purpose-sensitive. That is to say that the truth of statements depends on the intentions and context behind the statement and audience’s expectations.
 
 ## Knowledge and perception [epistemology]
 
@@ -39,6 +39,9 @@ Austin opposes the sense-data theory of perception, which suggest that we primar
 2. Peceptions are not passive. Our perception is under interpretation and judgment. That means illusions are essentially misinterpretations of our experience. And this does not prove that perception is inherently idirect. Instead this shows tha fallibility of our judgment. 
 
 ## References and To Read More
-Longworth, G. (2021, June 30). John Langshaw austin. Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/austin-jl/#ActiFree 
 
-Fiengo, R. (2017). On the Representation of Form and Function: Imperative Sentences. In Interpreting J.L. Austin (pp. 60–78). https://doi.org/10.1017/9781316421840.004 
+[Longworth, G. (2021, June 30). John Langshaw austin. Stanford Encyclopedia of Philosophy.](https://plato.stanford.edu/entries/austin-jl/#ActiFree)
+
+[Fiengo, R. (2017). On the Representation of Form and Function: Imperative Sentences. In Interpreting J.L. Austin (pp. 60–78).](https://doi.org/10.1017/9781316421840.004)
+
+
