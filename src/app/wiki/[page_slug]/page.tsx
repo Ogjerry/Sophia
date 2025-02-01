@@ -12,6 +12,8 @@ import { Tooltip } from 'flowbite-react';
 // reference: https://stackoverflow.com/questions/70548725/any-way-to-render-html-in-react-markdown
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
 
 interface Page {
   name: string;
@@ -32,7 +34,9 @@ interface Section {
     text: string;
     link: string;
   }[];
+  args: string;
 }
+
 
 function usePage(page_slug: string) {
   const [data, setData] = useState<Page | null>(null);
@@ -172,7 +176,27 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
                   return (
                     <>
                       <div className="h-6" />
-                      <div id={section.id} dangerouslySetInnerHTML={{ __html: section.text }} />
+                      <div id={section.id}>
+                          <Markdown rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={[remarkMath]} components={{
+                            sup: ({ children }) => (
+                              <span className='inline-flex'>
+
+                                {/* Life saver: https://stackoverflow.com/a/75638084/14110380 use span with inline-flex to fix the tooltip position */}
+                                <Tooltip className='max-w-[300px]' content={<Markdown rehypePlugins={[rehypeRaw]} components={{
+                                  p: ({ children }) => (
+                                    <span>{children}</span>
+                                )
+                              }}>{footnotes.find(footnote => footnote.key === children)?.value}</Markdown>}>
+                                {/* Tooltip content with flowbite-react: https://flowbite-react.com/docs/components/tooltip */}
+                                <sup>{children}</sup>
+                              </Tooltip>
+                              </span>
+                            ),
+                            p: ({ children }) => (
+                              <div>{children}</div>
+                            )
+                          }}>{section.text}</Markdown>
+                        </div>
                     </>
                   )
                 }
@@ -180,10 +204,51 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
                 else if (section.section_type === 'n') {
                   return null;
                 }
+                // render arrow section
+                else if (section.section_type === 'a') {
+                  return (
+                    <>
+                      <div className="h-6" />
+                      <h1 className="text-2xl font-bold mb-4 hover:underline hover:text-blue-500 cursor-pointer"
+                        onClick={() => {
+                          document.getElementById(section.id)?.scrollIntoView({ behavior: 'smooth' });
+                        }}
+                      >
+                        <a href={`/wiki/${section.args}`} id={section.slug}> {(() => {
+                          const match = section.subtitle.match(/Arrow to \[(.*)\]\s+\("(.*)"\)/);
+                          if (match) {
+                            return match[2] + " with " + match[1];
+                          }
+                          return section.subtitle;
+                        })()}
+                        </a>
+                      </h1>
+                      <div id={section.id}>
+                          <Markdown rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={[remarkMath]} components={{
+                            sup: ({ children }) => (
+                              <span className='inline-flex'>
+                                {/* Life saver: https://stackoverflow.com/a/75638084/14110380 use span with inline-flex to fix the tooltip position */}
+                                <Tooltip className='max-w-[300px]' content={<Markdown rehypePlugins={[rehypeRaw]} components={{
+                                  p: ({ children }) => (
+                                    <span>{children}</span>
+                                )
+                              }}>{footnotes.find(footnote => footnote.key === children)?.value}</Markdown>}>
+                                {/* Tooltip content with flowbite-react: https://flowbite-react.com/docs/components/tooltip */}
+                                <sup>{children}</sup>
+                              </Tooltip>
+                              </span>
+                            ),
+                            p: ({ children }) => (
+                              <div>{children}</div>
+                            )
+                          }}>{section.text}</Markdown>
+                        </div>
+                    </>
+                  )
+                }
                 // render reference section
                 else if (section.section_type === 'r') {
-                  const content = section.text;
-                  const link = content.split(')');
+                  const lines = section.text.split('\n').filter(line => line.trim() !== '');
                   return (
                     <>
                       <div className="h-6" />
@@ -195,16 +260,15 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
                       >
                         Read More
                       </h1>
-                      {link.map((l: string, index: number) => {
-                        const regex = /\[([^\]]+)\]\(([^)]+)\)/;
-                        const match = l.match(regex);
-                        const text = match ? match[1] : l;
-                        const url = match ? match[2] : "";
+                      {lines.map((l: string, index: number) => {
                         return (
                           <div key={`reference-${index}`}>
-                            <a href={url} target="_blank" className="hover:underline">
-                              [{index + 1}]. {text}
-                            </a>
+                              <Markdown rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={[remarkMath]} components={{
+                            // skip tooltip render for reference section
+                            p: ({ children }) => (
+                              <div>{children}</div>
+                            )
+                          }}>{"["+(index + 1)+"]. "+l}</Markdown>
                             <br />
                           </div>
                         )
@@ -227,7 +291,7 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
                           <a href={`#${section.slug}`} id={section.slug}>{section.subtitle}</a>
                         </h1>
                         <div id={section.id}>
-                          <Markdown rehypePlugins={[rehypeRaw]} components={{
+                          <Markdown rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={[remarkMath]} components={{
                             sup: ({ children }) => (
                               <span className='inline-flex'>
                                 {/* Life saver: https://stackoverflow.com/a/75638084/14110380 use span with inline-flex to fix the tooltip position */}
@@ -266,11 +330,12 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
                               <a href={`#${section.slug}`} id={section.slug}>{section.subtitle}</a>
                             </h2>
                             <div id={section.id} className='flex flex-col'>
-                            <Markdown rehypePlugins={[rehypeRaw]} components={{
+                            <Markdown rehypePlugins={[rehypeRaw, rehypeKatex]} remarkPlugins={[remarkMath]} components={{
                             sup: ({ children }) => (
                               <span className='inline-flex'>
                                 <Tooltip className='max-w-[300px]' content={<Markdown rehypePlugins={[rehypeRaw]} components={{
                                   p: ({ children }) => (
+
                                     <span>{children}</span>
                                 )
                               }}>{footnotes.find(footnote => footnote.key === children)?.value}</Markdown>}>
