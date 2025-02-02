@@ -12,7 +12,7 @@ In the 1940s, a number of philosophers in the logical empiricist movement moved 
 
 ### Verificationism
 
-Verificationism asserts that ##a statement is meaningful if and only if it is empirically verifiable or is analytically true. For a statement to be empirically verifiable, there must be a possible way to test its truth or falsity with observable data. For example, a statement “water boils at 100 celsius degree at sea level” can be tested by experiment. 
+Verificationism asserts that a statement is meaningful if and only if it is empirically verifiable or is analytically true. For a statement to be empirically verifiable, there must be a possible way to test its truth or falsity with observable data. For example, a statement “water boils at 100 celsius degree at sea level” can be tested by experiment.
 
 ### Analyticity and Mathematics
 
@@ -22,7 +22,7 @@ Because of its analytical nature, math and logic provide a reliable foundation f
 
 ### Unity of Science
 
-Unity of science is the idea that all branches of science- both natural science like physics and social science like sociology– are interconnected and essentially parts of a single coherent framework.
+Unity of science is the idea that all branches of science-both natural science like physics and social science like sociology– are interconnected and essentially parts of a single coherent framework.
 
 The background of this idea at the time was the aim to develop a common scientific language where concepts and terms used in one discipline could be translated and used in others. And this stems from a deeper metaphysical commitment called physicalism, which suggests that all sciences are ultimately reducible to physics.
 

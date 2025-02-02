@@ -12,7 +12,7 @@ To address category mistakes, Ryle advocates for a careful mapping of logical ge
 
 ## Concepts and meaning [phil_of_language]
 
-Ryle critiques the traditiaonl view that meanings and concepts are independent, static entities that are detache dfrom their practical use. According to Ryle, this view mistakenly traits meaning asif it were a distinct object that can be referred to, analyzed, or isolated from its context of use. Instead, Ryle suggests that meaning is not a detachable object but a function of how expressions are used within a language. Rather than being isolated entities, concepts are integral to the full sense of what is said or thought. 
+Ryle critiques the traditional view that meanings and concepts are independent, static entities that are detached from their practical use. According to Ryle, this view mistakenly traits meaning as if it were a distinct object that can be referred to, analyzed, or isolated from its context of use. Instead, Ryle suggests that meaning is not a detachable object but a function of how expressions are used within a language. Rather than being isolated entities, concepts are integral to the full sense of what is said or thought.
 
 To illustrate how to study concept and meaning in a integral way, Ryle offers the example of how Aristotle studied Plato’s account of pleasure. Aristotle did not attempt to examine "pleasure" as an isolated entity but instead analyzed what is actually asserted or denied in particular cases—such as when someone enjoys a concert. For Ryle, the verb "enjoys" captures specific contributions to meaning that the abstract "pleasure" cannot fully encapsulate.
 

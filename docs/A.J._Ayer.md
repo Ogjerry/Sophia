@@ -6,8 +6,9 @@
 
 The verification principle states that a statement is meaningful if and only if it can be verified. Verification, in this sense, is the process of confirming a statement through observation or experience. By this principle, propositions are classified into three categories:
 
-Analytic Propositions: Statements true by definition, like mathematical or logical truths. (such as  “All bachelors are unmarried”)
-Synthetic Propositions: Statements verifiable through experience, like “The cat is on the mat.”
+Analytic Propositions: Statements true by definition, like mathematical or logical truths. (such as "All bachelors are unmarried")
+Synthetic Propositions: Statements verifiable through experience, like "The cat is on the mat."
+
 Meaningless Statements: These are neither analytic nor empirically verifiable. Metaphysical claims, like “The Absolute is Infinite,” fall into this category, as they cannot be tested by experience.
 
 In this way, metaphysical claims become meaningless, as they are not verifiable.

@@ -30,7 +30,7 @@ Another side of Conventionalism is its pragmatic approach in choosing between tw
 
 Vienna Circle makes the distinction between first-order and second-order disciplines: first-order disciplines are those that make claims about the world, including physics and biology, while second-order disciplines reflect on the structure and methods of first-order disciplines. Instead of a discipline that produces its own domain of knowledge, philosophy, according to Vienna Circle, is a second-order discipline.
 
-This understanding of philosophy aligns with the Circl’s rejection against metaphysics that asks questions like “what is the nature of being?” or “do moral norms exist independently of human minds?” Those metaphysical questions are deemed as meaningless because it fails the criteria for verification. (see the abvoce section c. Conventiaonlism) The role of philosophy, instead, is to examine the logical structure of scientific theories and their logical interconnections.
+This understanding of philosophy aligns with the Circl’s rejection against metaphysics that asks questions like "what is the nature of being?" or "do moral norms exist independently of human minds?" Those metaphysical questions are deemed as meaningless because it fails the criteria for verification. (see the abvoce section c. Conventiaonlism) The role of philosophy, instead, is to examine the logical structure of scientific theories and their logical interconnections.
 
 ## Leading Figures
 

@@ -163,78 +163,78 @@ const GraphPage = () => {
     { from: 13, to: 16, length: 150 },
 
     // 1) Bertrand Russell (2) objects G. Frege (4)
-  {
-    from: 2,
-    to: 4,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
+    {
+      from: 2,
+      to: 4,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
 
-  // 2) P.F. Strawson (10) objects J.L. Austin (11), Quine (14),
-  //    Vienna Circle (6), and Russell (2)
-  {
-    from: 10,
-    to: 11,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
-  {
-    from: 10,
-    to: 14,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
-  {
-    from: 10,
-    to: 6,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
-  {
-    from: 10,
-    to: 2,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
+    // 2) P.F. Strawson (10) objects J.L. Austin (11), Quine (14),
+    //    Vienna Circle (6), and Russell (2)
+    {
+      from: 10,
+      to: 11,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
+    {
+      from: 10,
+      to: 14,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
+    {
+      from: 10,
+      to: 6,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
+    {
+      from: 10,
+      to: 2,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
 
-  // 3) Ludwig Wittgenstein (3) influences Vienna Circle (6)
-  {
-    from: 3,
-    to: 6,
-    label: 'Influence',
-    arrows: 'to',
-    color: { color: 'green' },
-  },
+    // 3) Ludwig Wittgenstein (3) influences Vienna Circle (6)
+    {
+      from: 3,
+      to: 6,
+      label: 'Influence',
+      arrows: 'to',
+      color: { color: 'green' },
+    },
 
-  // 4) Vienna Circle (6) objects Rudolf Carnap (8)
-  {
-    from: 6,
-    to: 8,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
+    // 4) Vienna Circle (6) objects Rudolf Carnap (8)
+    {
+      from: 6,
+      to: 8,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
 
-  // 5) Wilfrid Sellars (15) resonates with G. Frege (4) but objects to Russell (2)
-  {
-    from: 15,
-    to: 4,
-    label: 'Resonation',
-    arrows: 'to',
-    color: { color: 'blue' },
-  },
-  {
-    from: 15,
-    to: 2,
-    label: 'Objection',
-    arrows: 'to',
-    color: { color: 'red' },
-  },
+    // 5) Wilfrid Sellars (15) resonates with G. Frege (4) but objects to Russell (2)
+    {
+      from: 15,
+      to: 4,
+      label: 'Resonation',
+      arrows: 'to',
+      color: { color: 'blue' },
+    },
+    {
+      from: 15,
+      to: 2,
+      label: 'Objection',
+      arrows: 'to',
+      color: { color: 'red' },
+    },
 
   ], []);
 
@@ -322,11 +322,11 @@ const GraphPage = () => {
   const filterByRelationship = (relationship: string | null) => {
     if (!networkRef.current) return;
     const net = networkRef.current;
-  
+
     // If no relationship => reset to show all
     if (!relationship) {
       net.setData({ nodes: initialNodes, edges });
-      
+
       // Fit on all nodes:
       const allNodeIds = initialNodes.map((node) => node.id);
       net.fit({
@@ -338,10 +338,10 @@ const GraphPage = () => {
       });
       return;
     }
-  
+
     // 1. Find relevant edges
     const relevantEdges = edges.filter((e) => e.label === relationship);
-  
+
     // 2. Collect node IDs from relevant edges
     const nodeIds = new Set<number>();
     relevantEdges.forEach((edge) => {
@@ -349,22 +349,22 @@ const GraphPage = () => {
       nodeIds.add(edge.to as number);
     });
     const nodeIdArray = Array.from(nodeIds);
-  
+
     // 3. Hide any nodes not in nodeIds
     const filteredNodes = initialNodes.map((node) => ({
       ...node,
       hidden: !nodeIds.has(node.id),
     }));
-  
+
     // 4. Hide any edges not in relevantEdges
     const filteredEdges = edges.map((edge) => ({
       ...edge,
       hidden: !relevantEdges.includes(edge),
     }));
-  
+
     // 5. Update the network with the filtered data
     net.setData({ nodes: filteredNodes, edges: filteredEdges });
-  
+
     // 6. Zoom in on relevant nodes
     net.fit({
       nodes: nodeIdArray,
@@ -374,14 +374,14 @@ const GraphPage = () => {
       },
     });
   };
-  
+
 
   return (
     <div style={{ position: 'relative' }}>
       {/* The container for the graph */}
       <div
         ref={containerRef}
-        style={{ height: '600px', width: '100%', backgroundColor: 'white' }}
+        style={{ height: 'calc(100vh - 180px)', width: '100%', backgroundColor: 'white' }}
       />
 
       {/* Toggle button to show filters */}

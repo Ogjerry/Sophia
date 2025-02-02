@@ -14,11 +14,22 @@ For contents in footnotes, it's expected that the content shows up as a window w
 
 This is a note for arrow starting from the current node to the specified [Node] labeled with text in parentheses "Text". There can be cases where an arrow attached with multiple texts. In such case, put texts together on the same arrow.
 
+## Definition Link
+
+This is a note for the link of the definition.
+
+```markdown
+[<definition-link>]
+```
+
+There should be no space between the definition link.
+
 ## Reference and To Read More
 
 ```markdown
 [<reference>](<reference-url>)
 ```
+
 
 PS: _changed to markdown default hyperlink rendering on 2025.02.01_
 
