@@ -88,7 +88,8 @@ function useSections(page_slug: string) {
         // render definition links
         if (section.section_type === 't' && Object.keys(section.definition_links).length > 0) {
           for (const [text, link] of Object.entries(section.definition_links)) {
-            section.text = section.text.replace(text, `<a href="/wiki/${link}" class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">${text}</a>`);
+            let cleanedText = text.replace(/[\[\]]/g, "").replace(/_/g, " "); // remove any underline markup, square brackets, and convert underscores to spaces in the text
+            section.text = section.text.replace(text, `<a href="/wiki/${link}" class="font-medium text-blue-600 hover:underline">${cleanedText}</a>`);
           }
         }
         // preload footnotes to storage

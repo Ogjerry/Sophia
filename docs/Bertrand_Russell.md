@@ -1,6 +1,6 @@
 # Bertrand Russell
 
-## I. The distinction between direct and indirect knowledge of truths[epistemology] [ontology]
+## I. The distinction between direct and indirect knowledge of truths [epistemology] [ontology]
 
 <span style = "text-decoration: underline;">Direct knowledge</span>: this type of knowledge is immediate, intuitive, certain, and infallible. It refers to knowledge that is acquired without the need for inference or mediation. Direct knowledge includes knowledge of immediate facts of sensation and truths of logic. For example, knowledge of one's own current mental state or knowledge of basic logical principles would be considered direct knowledge.
 
