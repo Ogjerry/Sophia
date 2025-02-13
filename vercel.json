@@ -1,0 +1,5 @@
+{
+    "framework": "nextjs",
+    "buildCommand": "NODE_OPTIONS=--max-old-space-size=8192 next build"
+  }
+  

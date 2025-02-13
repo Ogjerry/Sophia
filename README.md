@@ -30,6 +30,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTrance-0%2FSophia)
+
 ## Deploy on Cloudflare
 
 Fork this repo and follow the tutorial:
@@ -37,3 +39,5 @@ Fork this repo and follow the tutorial:
 [Cloudflare Pages](https://developers.cloudflare.com/pages/configuration/git-integration/)
 
 if you are unsure about the deployment on pages, you can run `npm run build` locally to check if everything is going well.
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?paid=true)](https://deploy.workers.cloudflare.com/?url=https://github.com/Trance-0/Sophia)
