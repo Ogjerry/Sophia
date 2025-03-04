@@ -39,6 +39,7 @@ const GraphPage = () => {
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Wittgenstein.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/ludwig-wittgenstein',
       },
       {
         id: 4,
@@ -46,13 +47,14 @@ const GraphPage = () => {
         group: 'Logical Atomism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Gottlob-Frege.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/Frege',
+        wikiUrl: 'www.sophiaspath.org/wiki/gottlob-frege',
       },
       {
         id: 5,
         label: 'Logical Positivism',
         group: 'Logical Positivism',
         shape: 'box',
+        wikiUrl: 'www.sophiaspath.org/wiki/logical-positivism',
         margin: { top: 30, right: 30, bottom: 30, left: 30 },
         color: { background: '#fce4ec', border: '#e91e63' },
         font: { size: 18, color: '#343a40' },
@@ -63,7 +65,7 @@ const GraphPage = () => {
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Vienna-Circle.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/the-vieena-circle',
+        wikiUrl: 'www.sophiaspath.org/wiki/the-vienna-circle',
       },
       {
         id: 7,
@@ -71,7 +73,7 @@ const GraphPage = () => {
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'AJ-Ayer.png',
-        wikiUrl: 'www.sophiaspath.org/wiki/ajayer',
+        wikiUrl: 'www.sophiaspath.org/wiki/aj-ayer',
       },
       {
         id: 8,
@@ -79,12 +81,14 @@ const GraphPage = () => {
         group: 'Logical Positivism',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Carnap.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/rudolf-carnap',
       },
       {
         id: 9,
         label: 'Ordinary Language',
         group: 'Ordinary Language Philosophy',
         shape: 'box',
+        wikiUrl: 'www.sophiaspath.org/wiki/ordinary-language-philosophy',
         margin: { top: 30, right: 30, bottom: 30, left: 30 },
         color: { background: '#fff9c4', border: '#fbc02d' },
         font: { size: 16, color: '#343a40' },
@@ -95,6 +99,7 @@ const GraphPage = () => {
         group: 'Ordinary Language Philosophy',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Strawson.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/p-f-strawson',
       },
       {
         id: 11,
@@ -127,6 +132,7 @@ const GraphPage = () => {
         group: 'Logical Empiricism and its End',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Quine.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/willard-van-orman-quine',
       },
       {
         id: 15,
@@ -134,6 +140,7 @@ const GraphPage = () => {
         group: 'Logical Empiricism and its End',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Sellars.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/wilfrid-sellars',
       },
       {
         id: 16,
@@ -141,6 +148,7 @@ const GraphPage = () => {
         group: 'Logical Empiricism and its End',
         shape: 'image',
         image: PHILOSOPHER_IMAGE_BASE_URL + 'Chisholm.png',
+        wikiUrl: 'www.sophiaspath.org/wiki/roderick-chisholm',
       },
     ],
     []
