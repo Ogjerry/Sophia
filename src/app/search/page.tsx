@@ -19,7 +19,7 @@ function Search() {
 
   useEffect(() => {
     if (search) {
-      fetch(`https://backend.sophiaspath.org/search?q=${search}&sort=${sortOrder}&page=${page}`)
+      fetch(`https://sophiaspathbackend-production.up.railway.app/search?q=${search}&sort=${sortOrder}&page=${page}`)
         .then((res) => res.json())
         .then((data) => {
           setResults(data.sections);

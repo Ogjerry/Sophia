@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'backend.sophiaspath.org',
+        hostname: "sophiaspathbackend-production.up.railway.app",
         pathname: '/media/**',
       },
     ],

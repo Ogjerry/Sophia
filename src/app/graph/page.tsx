@@ -10,7 +10,7 @@ const GraphPage = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [showFilterButton, setShowFilterButton] = useState(false);
 
-  const PHILOSOPHER_IMAGE_BASE_URL = 'https://backend.sophiaspath.org/media/pic/';
+  const PHILOSOPHER_IMAGE_BASE_URL = "https://sophiaspathbackend-production.up.railway.app/media/pic/";
 
   // 1) Define your nodes (same as before)
   const initialNodes = useMemo(

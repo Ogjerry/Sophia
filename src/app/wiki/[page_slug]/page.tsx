@@ -15,6 +15,8 @@ import rehypeRaw from "rehype-raw";
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 
+const PHILOSOPHER_BACKEND_BASE_URL = "https://sophiaspathbackend-production.up.railway.app";
+
 interface Page {
   name: string;
   description: string;
@@ -42,7 +44,7 @@ function usePage(page_slug: string) {
   const [data, setData] = useState<Page | null>(null);
 
   useEffect(() => {
-    fetch(`https://backend.sophiaspath.org/getPage/${page_slug}?format=json`, {
+    fetch(`${PHILOSOPHER_BACKEND_BASE_URL}/getPage/${page_slug}?format=json`, {
     }).then(res => {
       if (!res) {
         setData(null);
@@ -70,7 +72,7 @@ function useSections(page_slug: string) {
   const [footnotes, setFootnotes] = useState<{ key: string, value: string }[]>([]);
 
   useEffect(() => {
-    fetch(`https://backend.sophiaspath.org/getSections/${page_slug}?format=json`, {
+    fetch(`${PHILOSOPHER_BACKEND_BASE_URL}/getSections/${page_slug}?format=json`, {
     }).then(res => {
       if (!res) {
         setData(null);
@@ -156,7 +158,7 @@ export default function WikiPage({ params }: { params: { page_slug: string } }) 
               <p>Last updated: {pageData.last_edit}</p>
               <p>Date created: {pageData.date_created}</p>
             </div>
-            <Image src={"https://backend.sophiaspath.org/media/p/" + pageData.slug + "/section-" + pageData.slug + "-meta.png"}
+            <Image src={`${PHILOSOPHER_BACKEND_BASE_URL}/media/p/${pageData.slug}/section-${pageData.slug}-meta.png`}
               alt={pageData.name}
               className="w-1/2-[300px] mx-auto hover:rotate-12 transition duration-300 ease-in-out"
               width={300}
